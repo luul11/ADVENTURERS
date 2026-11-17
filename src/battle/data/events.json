@@ -1,0 +1,750 @@
+{
+  "version": 1,
+  "events": [
+    {
+      "id": "overturned-cart",
+      "title": "翻覆的货车",
+      "description": "车轮折断在路边，补给箱还完好。路旁留着商队留下的求助记号。",
+      "start": "start",
+      "stages": {
+        "start": {
+          "choices": [
+            {
+              "id": "repair",
+              "label": "修好货车",
+              "description": "消耗一个护甲修理包，获得40金币和一瓶生命药剂。",
+              "effects": [
+                {
+                  "type": "gold",
+                  "amount": 40
+                },
+                {
+                  "type": "items",
+                  "ids": [
+                    "potion"
+                  ]
+                }
+              ],
+              "cost": {
+                "items": [
+                  "repair-kit"
+                ]
+              }
+            },
+            {
+              "id": "salvage",
+              "label": "整理散落物资",
+              "description": "获得一个护甲修理包和一瓶魔力药剂。",
+              "effects": [
+                {
+                  "type": "items",
+                  "ids": [
+                    "repair-kit",
+                    "ether"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "leave",
+              "label": "继续赶路",
+              "description": "不消耗物资，也不获得奖励。",
+              "effects": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "herbalist",
+      "title": "路边药师",
+      "description": "药师愿意提供治疗，但药草数量有限。",
+      "start": "start",
+      "stages": {
+        "start": {
+          "choices": [
+            {
+              "id": "treat",
+              "label": "购买全队治疗",
+              "description": "支付20金币，存活队员恢复35%生命。",
+              "effects": [
+                {
+                  "type": "recover",
+                  "hp": 0.35,
+                  "mp": 0,
+                  "armor": 0
+                }
+              ],
+              "cost": {
+                "gold": 20
+              },
+              "requires": "injured"
+            },
+            {
+              "id": "exchange",
+              "label": "交换药剂",
+              "description": "交出一瓶魔力药剂，换取两瓶生命药剂。",
+              "effects": [
+                {
+                  "type": "items",
+                  "ids": [
+                    "potion",
+                    "potion"
+                  ]
+                }
+              ],
+              "cost": {
+                "items": [
+                  "ether"
+                ]
+              }
+            },
+            {
+              "id": "take",
+              "label": "领取试用药",
+              "description": "获得一瓶生命药剂。",
+              "effects": [
+                {
+                  "type": "items",
+                  "ids": [
+                    "potion"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "injured-scout",
+      "title": "受伤的巡路人",
+      "description": "一名巡路人认出了你们。他知道一条避开敌人警戒的位置，也能帮忙唤醒倒下的同伴。",
+      "start": "start",
+      "stages": {
+        "start": {
+          "choices": [
+            {
+              "id": "revive",
+              "label": "救治倒下的同伴",
+              "description": "复活一名倒下队员，恢复40%生命与20%魔力。",
+              "effects": [
+                {
+                  "type": "revive",
+                  "hp": 0.4,
+                  "mp": 0.2
+                }
+              ],
+              "requires": "fallen"
+            },
+            {
+              "id": "scout",
+              "label": "询问敌情",
+              "description": "下一场遭遇中的敌人以85%生命入场；效果不叠加。",
+              "effects": [
+                {
+                  "type": "scout",
+                  "enemyHp": 0.85
+                }
+              ]
+            },
+            {
+              "id": "supplies",
+              "label": "领取补给",
+              "description": "获得一瓶生命药剂和一个护甲修理包。",
+              "effects": [
+                {
+                  "type": "items",
+                  "ids": [
+                    "potion",
+                    "repair-kit"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "road-shrine",
+      "title": "大道旧祭坛",
+      "description": "石碗里盛着清水，祭坛边有供旅人修补装备的工具。",
+      "start": "start",
+      "stages": {
+        "start": {
+          "choices": [
+            {
+              "id": "blessing",
+              "label": "献上供奉",
+              "description": "支付15金币，存活队员恢复30%生命和40%魔力。",
+              "effects": [
+                {
+                  "type": "recover",
+                  "hp": 0.3,
+                  "mp": 0.4,
+                  "armor": 0
+                }
+              ],
+              "cost": {
+                "gold": 15
+              }
+            },
+            {
+              "id": "repair",
+              "label": "借用修理工具",
+              "description": "存活队员恢复60%护甲。",
+              "effects": [
+                {
+                  "type": "recover",
+                  "hp": 0,
+                  "mp": 0,
+                  "armor": 0.6
+                }
+              ],
+              "requires": "damagedArmor"
+            },
+            {
+              "id": "water",
+              "label": "取走清水",
+              "description": "获得一瓶魔力药剂。",
+              "effects": [
+                {
+                  "type": "items",
+                  "ids": [
+                    "ether"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "contract-wanderer",
+      "title": "徘徊的地精",
+      "description": "一只落单地精试探着靠近。它愿意签约同行，也愿意拿出藏着的工具交换。",
+      "start": "start",
+      "stages": {
+        "start": {
+          "choices": [
+            {
+              "id": "recruit",
+              "label": "签订同行契约",
+              "description": "消耗一张契约，招募一名Lv.1普通地精；带入当前队伍，满员时须先整理。",
+              "effects": [
+                {
+                  "type": "recruit",
+                  "species": "gremlin",
+                  "level": 1,
+                  "role": "ranged"
+                }
+              ],
+              "cost": {
+                "items": [
+                  "contract"
+                ]
+              },
+              "requires": "space"
+            },
+            {
+              "id": "trade",
+              "label": "交换工具",
+              "description": "支付15金币，获得高级护甲修理包。",
+              "effects": [
+                {
+                  "type": "items",
+                  "ids": [
+                    "repair-kit-large"
+                  ]
+                }
+              ],
+              "cost": {
+                "gold": 15
+              }
+            },
+            {
+              "id": "part",
+              "label": "友好告别",
+              "description": "获得10金币。",
+              "effects": [
+                {
+                  "type": "gold",
+                  "amount": 10
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "abandoned-cache",
+      "title": "废弃的补给箱",
+      "description": "箱锁生锈，箱底却有新鲜脚印。可以先检查，也可以拿走外面的补给。",
+      "start": "start",
+      "stages": {
+        "start": {
+          "choices": [
+            {
+              "id": "inspect",
+              "label": "仔细检查",
+              "description": "先查看箱内状况，再决定是否深入。",
+              "effects": [],
+              "nextStage": "revealed"
+            },
+            {
+              "id": "surface",
+              "label": "取走外层补给",
+              "description": "获得一瓶生命药剂，不进入暗处。",
+              "effects": [
+                {
+                  "type": "items",
+                  "ids": [
+                    "potion"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "revealed": {
+          "description": "里面有完整货箱，旁边还藏着怪物的脚印。风险已经确认。",
+          "choices": [
+            {
+              "id": "open",
+              "label": "打开内箱",
+              "description": "70%获得35金币和一张契约；30%触发两名Lv.1伏兵。",
+              "effects": [],
+              "outcomes": [
+                {
+                  "weight": 70,
+                  "text": "内箱没有机关，找到了钱袋与契约。",
+                  "effects": [
+                    {
+                      "type": "gold",
+                      "amount": 35
+                    },
+                    {
+                      "type": "items",
+                      "ids": [
+                        "contract"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "weight": 30,
+                  "text": "箱后的伏兵冲了出来。",
+                  "effects": [],
+                  "encounter": "road-ambush"
+                }
+              ]
+            },
+            {
+              "id": "withdraw",
+              "label": "带走外层补给",
+              "description": "放弃内箱，获得一瓶生命药剂。",
+              "effects": [
+                {
+                  "type": "items",
+                  "ids": [
+                    "potion"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "mushroom-grotto",
+      "title": "微光菌洞",
+      "description": "洞壁上长着发光菌，几株药草生在潮湿的石缝中。",
+      "start": "start",
+      "stages": {
+        "start": {
+          "choices": [
+            {
+              "id": "gather",
+              "label": "小心采集",
+              "description": "获得一瓶魔力药剂和一瓶生命药剂。",
+              "effects": [
+                {
+                  "type": "items",
+                  "ids": [
+                    "ether",
+                    "potion"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "inhale",
+              "label": "深入菌雾",
+              "description": "存活队员各损失10%最大生命，至少保留1HP；恢复70%魔力。",
+              "effects": [
+                {
+                  "type": "hurt",
+                  "hp": 0.1
+                },
+                {
+                  "type": "recover",
+                  "hp": 0,
+                  "mp": 0.7,
+                  "armor": 0
+                }
+              ]
+            },
+            {
+              "id": "harvest",
+              "label": "割取稀有菌",
+              "description": "65%获得两瓶魔力药剂和25金币；35%全队损失10%最大生命但至少保留1HP。",
+              "effects": [],
+              "outcomes": [
+                {
+                  "weight": 65,
+                  "text": "找到了能入药的菌株。",
+                  "effects": [
+                    {
+                      "type": "items",
+                      "ids": [
+                        "ether",
+                        "ether"
+                      ]
+                    },
+                    {
+                      "type": "gold",
+                      "amount": 25
+                    }
+                  ]
+                },
+                {
+                  "weight": 35,
+                  "text": "孢子炸开，队伍急忙撤出。",
+                  "effects": [
+                    {
+                      "type": "hurt",
+                      "hp": 0.1
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "prison-cage",
+      "title": "囚笼旁的求救声",
+      "description": "一名被囚禁的普通哥布林愿意用行动换取自由。笼旁还有未拆封的救护包，可用于唤醒倒下的同伴。",
+      "start": "start",
+      "stages": {
+        "start": {
+          "choices": [
+            {
+              "id": "free",
+              "label": "用契约换取同行",
+              "description": "消耗契约，招募一名Lv.2普通哥布林；满员时须先整理。",
+              "effects": [
+                {
+                  "type": "recruit",
+                  "species": "goblin",
+                  "level": 2,
+                  "role": "melee"
+                }
+              ],
+              "cost": {
+                "items": [
+                  "contract"
+                ]
+              },
+              "requires": "space"
+            },
+            {
+              "id": "aid",
+              "label": "用救护包唤醒同伴",
+              "description": "复活一名倒下队员，恢复40%生命与20%魔力。",
+              "effects": [
+                {
+                  "type": "revive",
+                  "hp": 0.4,
+                  "mp": 0.2
+                }
+              ],
+              "requires": "fallen"
+            },
+            {
+              "id": "release",
+              "label": "打开笼门后分路",
+              "description": "获得30金币和一瓶生命药剂。",
+              "effects": [
+                {
+                  "type": "gold",
+                  "amount": 30
+                },
+                {
+                  "type": "items",
+                  "ids": [
+                    "potion"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "abandoned-forge",
+      "title": "废弃锻炉",
+      "description": "余温还在，工具没有损坏。可以修甲，也可以带走便携工具。",
+      "start": "start",
+      "stages": {
+        "start": {
+          "choices": [
+            {
+              "id": "repair",
+              "label": "原地修理",
+              "description": "存活队员恢复80%护甲。",
+              "effects": [
+                {
+                  "type": "recover",
+                  "hp": 0,
+                  "mp": 0,
+                  "armor": 0.8
+                }
+              ],
+              "requires": "damagedArmor"
+            },
+            {
+              "id": "tools",
+              "label": "拆取便携工具",
+              "description": "获得一个普通和一个高级护甲修理包。",
+              "effects": [
+                {
+                  "type": "items",
+                  "ids": [
+                    "repair-kit",
+                    "repair-kit-large"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "upgrade",
+              "label": "换取远征背包",
+              "description": "支付45金币和一个斥候背包，获得6格远征背包。",
+              "effects": [
+                {
+                  "type": "items",
+                  "ids": [
+                    "expedition-bag"
+                  ]
+                }
+              ],
+              "cost": {
+                "gold": 45,
+                "items": [
+                  "scout-bag"
+                ]
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "watch-post",
+      "title": "废弃哨站",
+      "description": "岗哨上有一份巡逻记录。花时间分析可以掌握敌人换岗规律，近处还有未搬走的钱箱。",
+      "start": "start",
+      "stages": {
+        "start": {
+          "choices": [
+            {
+              "id": "intel",
+              "label": "分析巡逻记录",
+              "description": "下一场敌人以85%生命入场，不叠加；获得一个修理包。",
+              "effects": [
+                {
+                  "type": "scout",
+                  "enemyHp": 0.85
+                },
+                {
+                  "type": "items",
+                  "ids": [
+                    "repair-kit"
+                  ]
+                }
+              ]
+            },
+            {
+              "id": "coins",
+              "label": "搬走钱箱",
+              "description": "获得45金币，但不获得侦察优势。",
+              "effects": [
+                {
+                  "type": "gold",
+                  "amount": 45
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "totem-chamber",
+      "title": "回声图腾室",
+      "description": "图腾引导着微弱魔力，周围散落着祭品。",
+      "start": "start",
+      "stages": {
+        "start": {
+          "choices": [
+            {
+              "id": "offer",
+              "label": "用契约作为祭品",
+              "description": "消耗一张契约，复活一名倒下队员，恢复60%生命与30%魔力。",
+              "effects": [
+                {
+                  "type": "revive",
+                  "hp": 0.6,
+                  "mp": 0.3
+                }
+              ],
+              "cost": {
+                "items": [
+                  "contract"
+                ]
+              },
+              "requires": "fallen"
+            },
+            {
+              "id": "restore",
+              "label": "接受微光洗礼",
+              "description": "存活队员恢复25%生命与50%魔力。",
+              "effects": [
+                {
+                  "type": "recover",
+                  "hp": 0.25,
+                  "mp": 0.5,
+                  "armor": 0
+                }
+              ]
+            },
+            {
+              "id": "loot",
+              "label": "带走祭品",
+              "description": "获得一张契约和一瓶魔力药剂。",
+              "effects": [
+                {
+                  "type": "items",
+                  "ids": [
+                    "contract",
+                    "ether"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "id": "smuggler-cache",
+      "title": "走私者暗仓",
+      "description": "木箱上的记号表明这里存放着整批物资。先查看封条，能知道打开它的代价。",
+      "start": "start",
+      "stages": {
+        "start": {
+          "choices": [
+            {
+              "id": "inspect",
+              "label": "检查封条",
+              "description": "查看后再选择，不消耗资源。",
+              "effects": [],
+              "nextStage": "sealed"
+            },
+            {
+              "id": "outside",
+              "label": "收集外层物资",
+              "description": "获得一瓶生命药剂和一个修理包。",
+              "effects": [
+                {
+                  "type": "items",
+                  "ids": [
+                    "potion",
+                    "repair-kit"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        "sealed": {
+          "description": "封条连着响铃。付钱能从暗格取货，强行开箱可能惊动巡逻队。",
+          "choices": [
+            {
+              "id": "buy",
+              "label": "从暗格换取补给",
+              "description": "支付20金币，获得两瓶生命药剂和一个高级修理包。",
+              "effects": [
+                {
+                  "type": "items",
+                  "ids": [
+                    "potion",
+                    "potion",
+                    "repair-kit-large"
+                  ]
+                }
+              ],
+              "cost": {
+                "gold": 20
+              }
+            },
+            {
+              "id": "force",
+              "label": "强行开箱",
+              "description": "60%获得60金币与一张契约；40%触发Lv.2哥布林混编伏兵。",
+              "effects": [],
+              "outcomes": [
+                {
+                  "weight": 60,
+                  "text": "取出了暗仓中的货物。",
+                  "effects": [
+                    {
+                      "type": "gold",
+                      "amount": 60
+                    },
+                    {
+                      "type": "items",
+                      "ids": [
+                        "contract"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "weight": 40,
+                  "text": "响铃惊动了巡逻队。",
+                  "effects": [],
+                  "encounter": "den-ambush"
+                }
+              ]
+            },
+            {
+              "id": "leave",
+              "label": "原路离开",
+              "description": "不消耗，也不获得奖励。",
+              "effects": []
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

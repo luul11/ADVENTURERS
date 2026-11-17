@@ -1,0 +1,1097 @@
+{
+  "version": 1,
+  "poses": [
+    "idle",
+    "portrait",
+    "melee",
+    "ranged",
+    "broken"
+  ],
+  "size": 256,
+  "sources": {
+    "card_roster_4classes_5x4_final.png": "d9a16b8027bf4400c9c947276a6f955f0ee3c7e047b676c5832e1ff5331499ef",
+    "card_roster_cn_5x4_base.png": "cb8ab09e85858f83ca77d4018311d376ceeabcb373bde6a2cbb24745c241fe89"
+  },
+  "sprites": [
+    {
+      "id": "vanguard",
+      "pose": "idle",
+      "file": "vanguard_idle.png",
+      "source": "card_roster_4classes_5x4_final.png",
+      "source_box": [
+        0,
+        0,
+        280,
+        280
+      ],
+      "source_size": [
+        1402,
+        1122
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        15,
+        15,
+        193,
+        252
+      ],
+      "bytes": 51914
+    },
+    {
+      "id": "vanguard",
+      "pose": "portrait",
+      "file": "vanguard_portrait.png",
+      "source": "card_roster_4classes_5x4_final.png",
+      "source_box": [
+        280,
+        0,
+        561,
+        280
+      ],
+      "source_size": [
+        1402,
+        1122
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        0,
+        14,
+        208,
+        251
+      ],
+      "bytes": 77857
+    },
+    {
+      "id": "vanguard",
+      "pose": "melee",
+      "file": "vanguard_melee.png",
+      "source": "card_roster_4classes_5x4_final.png",
+      "source_box": [
+        561,
+        0,
+        841,
+        280
+      ],
+      "source_size": [
+        1402,
+        1122
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        12,
+        14,
+        213,
+        252
+      ],
+      "bytes": 63364
+    },
+    {
+      "id": "vanguard",
+      "pose": "ranged",
+      "file": "vanguard_ranged.png",
+      "source": "card_roster_4classes_5x4_final.png",
+      "source_box": [
+        841,
+        0,
+        1122,
+        280
+      ],
+      "source_size": [
+        1402,
+        1122
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        20,
+        35,
+        252,
+        251
+      ],
+      "bytes": 52485
+    },
+    {
+      "id": "vanguard",
+      "pose": "broken",
+      "file": "vanguard_broken.png",
+      "source": "card_roster_4classes_5x4_final.png",
+      "source_box": [
+        1122,
+        0,
+        1402,
+        280
+      ],
+      "source_size": [
+        1402,
+        1122
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        27,
+        16,
+        209,
+        252
+      ],
+      "bytes": 61221
+    },
+    {
+      "id": "ranger",
+      "pose": "idle",
+      "file": "ranger_idle.png",
+      "source": "card_roster_4classes_5x4_final.png",
+      "source_box": [
+        0,
+        280,
+        280,
+        561
+      ],
+      "source_size": [
+        1402,
+        1122
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        20,
+        12,
+        225,
+        244
+      ],
+      "bytes": 54456
+    },
+    {
+      "id": "ranger",
+      "pose": "portrait",
+      "file": "ranger_portrait.png",
+      "source": "card_roster_4classes_5x4_final.png",
+      "source_box": [
+        280,
+        280,
+        561,
+        561
+      ],
+      "source_size": [
+        1402,
+        1122
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        0,
+        9,
+        256,
+        246
+      ],
+      "bytes": 83584
+    },
+    {
+      "id": "ranger",
+      "pose": "melee",
+      "file": "ranger_melee.png",
+      "source": "card_roster_4classes_5x4_final.png",
+      "source_box": [
+        561,
+        280,
+        841,
+        561
+      ],
+      "source_size": [
+        1402,
+        1122
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        0,
+        21,
+        235,
+        246
+      ],
+      "bytes": 71139
+    },
+    {
+      "id": "ranger",
+      "pose": "ranged",
+      "file": "ranger_ranged.png",
+      "source": "card_roster_4classes_5x4_final.png",
+      "source_box": [
+        841,
+        280,
+        1122,
+        561
+      ],
+      "source_size": [
+        1402,
+        1122
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        29,
+        6,
+        254,
+        246
+      ],
+      "bytes": 69404
+    },
+    {
+      "id": "ranger",
+      "pose": "broken",
+      "file": "ranger_broken.png",
+      "source": "card_roster_4classes_5x4_final.png",
+      "source_box": [
+        1122,
+        280,
+        1402,
+        561
+      ],
+      "source_size": [
+        1402,
+        1122
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        31,
+        11,
+        240,
+        244
+      ],
+      "bytes": 64107
+    },
+    {
+      "id": "guardian",
+      "pose": "idle",
+      "file": "guardian_idle.png",
+      "source": "card_roster_4classes_5x4_final.png",
+      "source_box": [
+        0,
+        561,
+        280,
+        842
+      ],
+      "source_size": [
+        1402,
+        1122
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        14,
+        5,
+        223,
+        240
+      ],
+      "bytes": 78370
+    },
+    {
+      "id": "guardian",
+      "pose": "portrait",
+      "file": "guardian_portrait.png",
+      "source": "card_roster_4classes_5x4_final.png",
+      "source_box": [
+        280,
+        561,
+        561,
+        842
+      ],
+      "source_size": [
+        1402,
+        1122
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        0,
+        9,
+        256,
+        240
+      ],
+      "bytes": 92373
+    },
+    {
+      "id": "guardian",
+      "pose": "melee",
+      "file": "guardian_melee.png",
+      "source": "card_roster_4classes_5x4_final.png",
+      "source_box": [
+        561,
+        561,
+        841,
+        842
+      ],
+      "source_size": [
+        1402,
+        1122
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        0,
+        2,
+        236,
+        240
+      ],
+      "bytes": 87590
+    },
+    {
+      "id": "guardian",
+      "pose": "ranged",
+      "file": "guardian_ranged.png",
+      "source": "card_roster_4classes_5x4_final.png",
+      "source_box": [
+        841,
+        561,
+        1122,
+        842
+      ],
+      "source_size": [
+        1402,
+        1122
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        10,
+        24,
+        254,
+        240
+      ],
+      "bytes": 61581
+    },
+    {
+      "id": "guardian",
+      "pose": "broken",
+      "file": "guardian_broken.png",
+      "source": "card_roster_4classes_5x4_final.png",
+      "source_box": [
+        1122,
+        561,
+        1402,
+        842
+      ],
+      "source_size": [
+        1402,
+        1122
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        29,
+        6,
+        218,
+        240
+      ],
+      "bytes": 79630
+    },
+    {
+      "id": "mage",
+      "pose": "idle",
+      "file": "mage_idle.png",
+      "source": "card_roster_4classes_5x4_final.png",
+      "source_box": [
+        0,
+        842,
+        280,
+        1122
+      ],
+      "source_size": [
+        1402,
+        1122
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        50,
+        0,
+        193,
+        245
+      ],
+      "bytes": 56932
+    },
+    {
+      "id": "mage",
+      "pose": "portrait",
+      "file": "mage_portrait.png",
+      "source": "card_roster_4classes_5x4_final.png",
+      "source_box": [
+        280,
+        842,
+        561,
+        1122
+      ],
+      "source_size": [
+        1402,
+        1122
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        0,
+        0,
+        216,
+        245
+      ],
+      "bytes": 94239
+    },
+    {
+      "id": "mage",
+      "pose": "melee",
+      "file": "mage_melee.png",
+      "source": "card_roster_4classes_5x4_final.png",
+      "source_box": [
+        561,
+        842,
+        841,
+        1122
+      ],
+      "source_size": [
+        1402,
+        1122
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        4,
+        15,
+        244,
+        245
+      ],
+      "bytes": 64912
+    },
+    {
+      "id": "mage",
+      "pose": "ranged",
+      "file": "mage_ranged.png",
+      "source": "card_roster_4classes_5x4_final.png",
+      "source_box": [
+        841,
+        842,
+        1122,
+        1122
+      ],
+      "source_size": [
+        1402,
+        1122
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        38,
+        15,
+        235,
+        244
+      ],
+      "bytes": 66538
+    },
+    {
+      "id": "mage",
+      "pose": "broken",
+      "file": "mage_broken.png",
+      "source": "card_roster_4classes_5x4_final.png",
+      "source_box": [
+        1122,
+        842,
+        1402,
+        1122
+      ],
+      "source_size": [
+        1402,
+        1122
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        55,
+        1,
+        213,
+        246
+      ],
+      "bytes": 68099
+    },
+    {
+      "id": "cn_blade",
+      "pose": "idle",
+      "file": "cn_blade_idle.png",
+      "source": "card_roster_cn_5x4_base.png",
+      "source_box": [
+        0,
+        0,
+        280,
+        280
+      ],
+      "source_size": [
+        1402,
+        1122
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        10,
+        10,
+        256,
+        255
+      ],
+      "bytes": 63972
+    },
+    {
+      "id": "cn_blade",
+      "pose": "portrait",
+      "file": "cn_blade_portrait.png",
+      "source": "card_roster_cn_5x4_base.png",
+      "source_box": [
+        280,
+        0,
+        561,
+        280
+      ],
+      "source_size": [
+        1402,
+        1122
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        0,
+        13,
+        222,
+        250
+      ],
+      "bytes": 84405
+    },
+    {
+      "id": "cn_blade",
+      "pose": "melee",
+      "file": "cn_blade_melee.png",
+      "source": "card_roster_cn_5x4_base.png",
+      "source_box": [
+        561,
+        0,
+        841,
+        280
+      ],
+      "source_size": [
+        1402,
+        1122
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        3,
+        20,
+        209,
+        255
+      ],
+      "bytes": 70463
+    },
+    {
+      "id": "cn_blade",
+      "pose": "ranged",
+      "file": "cn_blade_ranged.png",
+      "source": "card_roster_cn_5x4_base.png",
+      "source_box": [
+        841,
+        0,
+        1122,
+        280
+      ],
+      "source_size": [
+        1402,
+        1122
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        14,
+        21,
+        252,
+        253
+      ],
+      "bytes": 54354
+    },
+    {
+      "id": "cn_blade",
+      "pose": "broken",
+      "file": "cn_blade_broken.png",
+      "source": "card_roster_cn_5x4_base.png",
+      "source_box": [
+        1122,
+        0,
+        1402,
+        280
+      ],
+      "source_size": [
+        1402,
+        1122
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        21,
+        10,
+        214,
+        254
+      ],
+      "bytes": 68607
+    },
+    {
+      "id": "cn_archer",
+      "pose": "idle",
+      "file": "cn_archer_idle.png",
+      "source": "card_roster_cn_5x4_base.png",
+      "source_box": [
+        0,
+        280,
+        280,
+        561
+      ],
+      "source_size": [
+        1402,
+        1122
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        31,
+        15,
+        255,
+        251
+      ],
+      "bytes": 59700
+    },
+    {
+      "id": "cn_archer",
+      "pose": "portrait",
+      "file": "cn_archer_portrait.png",
+      "source": "card_roster_cn_5x4_base.png",
+      "source_box": [
+        280,
+        280,
+        561,
+        561
+      ],
+      "source_size": [
+        1402,
+        1122
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        0,
+        24,
+        256,
+        246
+      ],
+      "bytes": 91643
+    },
+    {
+      "id": "cn_archer",
+      "pose": "melee",
+      "file": "cn_archer_melee.png",
+      "source": "card_roster_cn_5x4_base.png",
+      "source_box": [
+        561,
+        280,
+        841,
+        561
+      ],
+      "source_size": [
+        1402,
+        1122
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        0,
+        35,
+        212,
+        249
+      ],
+      "bytes": 63609
+    },
+    {
+      "id": "cn_archer",
+      "pose": "ranged",
+      "file": "cn_archer_ranged.png",
+      "source": "card_roster_cn_5x4_base.png",
+      "source_box": [
+        841,
+        280,
+        1122,
+        561
+      ],
+      "source_size": [
+        1402,
+        1122
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        0,
+        10,
+        239,
+        247
+      ],
+      "bytes": 71174
+    },
+    {
+      "id": "cn_archer",
+      "pose": "broken",
+      "file": "cn_archer_broken.png",
+      "source": "card_roster_cn_5x4_base.png",
+      "source_box": [
+        1122,
+        280,
+        1402,
+        561
+      ],
+      "source_size": [
+        1402,
+        1122
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        50,
+        15,
+        217,
+        251
+      ],
+      "bytes": 54367
+    },
+    {
+      "id": "cn_guardian",
+      "pose": "idle",
+      "file": "cn_guardian_idle.png",
+      "source": "card_roster_cn_5x4_base.png",
+      "source_box": [
+        0,
+        561,
+        280,
+        842
+      ],
+      "source_size": [
+        1402,
+        1122
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        11,
+        9,
+        197,
+        243
+      ],
+      "bytes": 70674
+    },
+    {
+      "id": "cn_guardian",
+      "pose": "portrait",
+      "file": "cn_guardian_portrait.png",
+      "source": "card_roster_cn_5x4_base.png",
+      "source_box": [
+        280,
+        561,
+        561,
+        842
+      ],
+      "source_size": [
+        1402,
+        1122
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        0,
+        7,
+        225,
+        256
+      ],
+      "bytes": 89943
+    },
+    {
+      "id": "cn_guardian",
+      "pose": "melee",
+      "file": "cn_guardian_melee.png",
+      "source": "card_roster_cn_5x4_base.png",
+      "source_box": [
+        561,
+        561,
+        841,
+        842
+      ],
+      "source_size": [
+        1402,
+        1122
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        10,
+        7,
+        217,
+        251
+      ],
+      "bytes": 73704
+    },
+    {
+      "id": "cn_guardian",
+      "pose": "ranged",
+      "file": "cn_guardian_ranged.png",
+      "source": "card_roster_cn_5x4_base.png",
+      "source_box": [
+        841,
+        561,
+        1122,
+        842
+      ],
+      "source_size": [
+        1402,
+        1122
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        9,
+        23,
+        256,
+        244
+      ],
+      "bytes": 55337
+    },
+    {
+      "id": "cn_guardian",
+      "pose": "broken",
+      "file": "cn_guardian_broken.png",
+      "source": "card_roster_cn_5x4_base.png",
+      "source_box": [
+        1122,
+        561,
+        1402,
+        842
+      ],
+      "source_size": [
+        1402,
+        1122
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        0,
+        10,
+        225,
+        245
+      ],
+      "bytes": 80121
+    },
+    {
+      "id": "cn_mage",
+      "pose": "idle",
+      "file": "cn_mage_idle.png",
+      "source": "card_roster_cn_5x4_base.png",
+      "source_box": [
+        0,
+        842,
+        280,
+        1122
+      ],
+      "source_size": [
+        1402,
+        1122
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        31,
+        1,
+        256,
+        245
+      ],
+      "bytes": 82087
+    },
+    {
+      "id": "cn_mage",
+      "pose": "portrait",
+      "file": "cn_mage_portrait.png",
+      "source": "card_roster_cn_5x4_base.png",
+      "source_box": [
+        280,
+        842,
+        561,
+        1122
+      ],
+      "source_size": [
+        1402,
+        1122
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        0,
+        0,
+        256,
+        246
+      ],
+      "bytes": 102806
+    },
+    {
+      "id": "cn_mage",
+      "pose": "melee",
+      "file": "cn_mage_melee.png",
+      "source": "card_roster_cn_5x4_base.png",
+      "source_box": [
+        561,
+        842,
+        841,
+        1122
+      ],
+      "source_size": [
+        1402,
+        1122
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        0,
+        12,
+        245,
+        246
+      ],
+      "bytes": 97982
+    },
+    {
+      "id": "cn_mage",
+      "pose": "ranged",
+      "file": "cn_mage_ranged.png",
+      "source": "card_roster_cn_5x4_base.png",
+      "source_box": [
+        841,
+        842,
+        1122,
+        1122
+      ],
+      "source_size": [
+        1402,
+        1122
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        15,
+        20,
+        235,
+        245
+      ],
+      "bytes": 85456
+    },
+    {
+      "id": "cn_mage",
+      "pose": "broken",
+      "file": "cn_mage_broken.png",
+      "source": "card_roster_cn_5x4_base.png",
+      "source_box": [
+        1122,
+        842,
+        1402,
+        1122
+      ],
+      "source_size": [
+        1402,
+        1122
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        34,
+        1,
+        228,
+        245
+      ],
+      "bytes": 86365
+    }
+  ]
+}

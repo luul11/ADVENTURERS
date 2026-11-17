@@ -1,0 +1,35 @@
+{
+  "version": 1,
+  "encounters": [
+    {
+      "id": "human-raiders-1",
+      "name": "落单掠夺者",
+      "count": 1,
+      "weight": 4
+    },
+    {
+      "id": "human-raiders-2",
+      "name": "双人拦路者",
+      "count": 2,
+      "weight": 4
+    },
+    {
+      "id": "human-raiders-3",
+      "name": "劫掠小队",
+      "count": 3,
+      "weight": 3
+    },
+    {
+      "id": "human-raiders-4",
+      "name": "武装盗匪",
+      "count": 4,
+      "weight": 2
+    },
+    {
+      "id": "human-raiders-5",
+      "name": "危险佣兵团",
+      "count": 5,
+      "weight": 1
+    }
+  ]
+}

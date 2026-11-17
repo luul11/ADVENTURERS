@@ -1,0 +1,665 @@
+{
+  "source": "card_roster_5x4_battle_damage.png",
+  "source_size": [
+    1402,
+    1122
+  ],
+  "source_sha256": "1f8a8c254e0c4772aa53c1e31f3580bfc2476efce0fc21892ba5aeed289f291a",
+  "layout": "5 columns x 4 rows; content-aware boundaries",
+  "canvas": [
+    320,
+    320
+  ],
+  "resampling": "none; native pixels preserved",
+  "background": "edge-connected white removed; exterior fringe decontaminated",
+  "sprites": [
+    {
+      "species": "human",
+      "pose": "idle",
+      "file": "human/idle.png",
+      "canvas": [
+        320,
+        320
+      ],
+      "source_region": [
+        0,
+        0,
+        258,
+        310
+      ],
+      "source_content_box": [
+        29,
+        8,
+        230,
+        293
+      ],
+      "native_content_size": [
+        201,
+        285
+      ],
+      "placement": [
+        59,
+        19
+      ],
+      "foot_anchor": [
+        160,
+        304
+      ]
+    },
+    {
+      "species": "human",
+      "pose": "portrait",
+      "file": "human/portrait.png",
+      "canvas": [
+        320,
+        320
+      ],
+      "source_region": [
+        258,
+        0,
+        522,
+        310
+      ],
+      "source_content_box": [
+        282,
+        21,
+        492,
+        268
+      ],
+      "native_content_size": [
+        210,
+        247
+      ],
+      "placement": [
+        55,
+        36
+      ],
+      "foot_anchor": null
+    },
+    {
+      "species": "human",
+      "pose": "melee",
+      "file": "human/melee.png",
+      "canvas": [
+        320,
+        320
+      ],
+      "source_region": [
+        522,
+        0,
+        824,
+        310
+      ],
+      "source_content_box": [
+        541,
+        27,
+        755,
+        285
+      ],
+      "native_content_size": [
+        214,
+        258
+      ],
+      "placement": [
+        53,
+        46
+      ],
+      "foot_anchor": [
+        160,
+        304
+      ]
+    },
+    {
+      "species": "human",
+      "pose": "ranged",
+      "file": "human/ranged.png",
+      "canvas": [
+        320,
+        320
+      ],
+      "source_region": [
+        824,
+        0,
+        1124,
+        310
+      ],
+      "source_content_box": [
+        860,
+        1,
+        1094,
+        289
+      ],
+      "native_content_size": [
+        234,
+        288
+      ],
+      "placement": [
+        43,
+        16
+      ],
+      "foot_anchor": [
+        160,
+        304
+      ]
+    },
+    {
+      "species": "human",
+      "pose": "broken",
+      "file": "human/broken.png",
+      "canvas": [
+        320,
+        320
+      ],
+      "source_region": [
+        1124,
+        0,
+        1402,
+        310
+      ],
+      "source_content_box": [
+        1161,
+        18,
+        1372,
+        291
+      ],
+      "native_content_size": [
+        211,
+        273
+      ],
+      "placement": [
+        54,
+        31
+      ],
+      "foot_anchor": [
+        160,
+        304
+      ]
+    },
+    {
+      "species": "slime",
+      "pose": "idle",
+      "file": "slime/idle.png",
+      "canvas": [
+        320,
+        320
+      ],
+      "source_region": [
+        0,
+        310,
+        258,
+        540
+      ],
+      "source_content_box": [
+        16,
+        352,
+        228,
+        508
+      ],
+      "native_content_size": [
+        212,
+        156
+      ],
+      "placement": [
+        54,
+        148
+      ],
+      "foot_anchor": [
+        160,
+        304
+      ]
+    },
+    {
+      "species": "slime",
+      "pose": "portrait",
+      "file": "slime/portrait.png",
+      "canvas": [
+        320,
+        320
+      ],
+      "source_region": [
+        258,
+        310,
+        522,
+        540
+      ],
+      "source_content_box": [
+        282,
+        321,
+        506,
+        526
+      ],
+      "native_content_size": [
+        224,
+        205
+      ],
+      "placement": [
+        48,
+        57
+      ],
+      "foot_anchor": null
+    },
+    {
+      "species": "slime",
+      "pose": "melee",
+      "file": "slime/melee.png",
+      "canvas": [
+        320,
+        320
+      ],
+      "source_region": [
+        522,
+        310,
+        824,
+        540
+      ],
+      "source_content_box": [
+        546,
+        356,
+        805,
+        510
+      ],
+      "native_content_size": [
+        259,
+        154
+      ],
+      "placement": [
+        30,
+        150
+      ],
+      "foot_anchor": [
+        160,
+        304
+      ]
+    },
+    {
+      "species": "slime",
+      "pose": "ranged",
+      "file": "slime/ranged.png",
+      "canvas": [
+        320,
+        320
+      ],
+      "source_region": [
+        824,
+        310,
+        1124,
+        540
+      ],
+      "source_content_box": [
+        846,
+        339,
+        1097,
+        506
+      ],
+      "native_content_size": [
+        251,
+        167
+      ],
+      "placement": [
+        34,
+        137
+      ],
+      "foot_anchor": [
+        160,
+        304
+      ]
+    },
+    {
+      "species": "slime",
+      "pose": "broken",
+      "file": "slime/broken.png",
+      "canvas": [
+        320,
+        320
+      ],
+      "source_region": [
+        1124,
+        310,
+        1402,
+        540
+      ],
+      "source_content_box": [
+        1155,
+        333,
+        1375,
+        513
+      ],
+      "native_content_size": [
+        220,
+        180
+      ],
+      "placement": [
+        50,
+        124
+      ],
+      "foot_anchor": [
+        160,
+        304
+      ]
+    },
+    {
+      "species": "gremlin",
+      "pose": "idle",
+      "file": "gremlin/idle.png",
+      "canvas": [
+        320,
+        320
+      ],
+      "source_region": [
+        0,
+        540,
+        258,
+        825
+      ],
+      "source_content_box": [
+        21,
+        562,
+        242,
+        805
+      ],
+      "native_content_size": [
+        221,
+        243
+      ],
+      "placement": [
+        49,
+        61
+      ],
+      "foot_anchor": [
+        160,
+        304
+      ]
+    },
+    {
+      "species": "gremlin",
+      "pose": "portrait",
+      "file": "gremlin/portrait.png",
+      "canvas": [
+        320,
+        320
+      ],
+      "source_region": [
+        258,
+        540,
+        522,
+        825
+      ],
+      "source_content_box": [
+        276,
+        567,
+        508,
+        800
+      ],
+      "native_content_size": [
+        232,
+        233
+      ],
+      "placement": [
+        44,
+        43
+      ],
+      "foot_anchor": null
+    },
+    {
+      "species": "gremlin",
+      "pose": "melee",
+      "file": "gremlin/melee.png",
+      "canvas": [
+        320,
+        320
+      ],
+      "source_region": [
+        522,
+        540,
+        824,
+        825
+      ],
+      "source_content_box": [
+        542,
+        577,
+        774,
+        815
+      ],
+      "native_content_size": [
+        232,
+        238
+      ],
+      "placement": [
+        44,
+        66
+      ],
+      "foot_anchor": [
+        160,
+        304
+      ]
+    },
+    {
+      "species": "gremlin",
+      "pose": "ranged",
+      "file": "gremlin/ranged.png",
+      "canvas": [
+        320,
+        320
+      ],
+      "source_region": [
+        824,
+        540,
+        1124,
+        825
+      ],
+      "source_content_box": [
+        851,
+        549,
+        1093,
+        813
+      ],
+      "native_content_size": [
+        242,
+        264
+      ],
+      "placement": [
+        39,
+        40
+      ],
+      "foot_anchor": [
+        160,
+        304
+      ]
+    },
+    {
+      "species": "gremlin",
+      "pose": "broken",
+      "file": "gremlin/broken.png",
+      "canvas": [
+        320,
+        320
+      ],
+      "source_region": [
+        1124,
+        540,
+        1402,
+        825
+      ],
+      "source_content_box": [
+        1154,
+        567,
+        1391,
+        811
+      ],
+      "native_content_size": [
+        237,
+        244
+      ],
+      "placement": [
+        41,
+        60
+      ],
+      "foot_anchor": [
+        160,
+        304
+      ]
+    },
+    {
+      "species": "goblin",
+      "pose": "idle",
+      "file": "goblin/idle.png",
+      "canvas": [
+        320,
+        320
+      ],
+      "source_region": [
+        0,
+        825,
+        258,
+        1122
+      ],
+      "source_content_box": [
+        25,
+        829,
+        199,
+        1096
+      ],
+      "native_content_size": [
+        174,
+        267
+      ],
+      "placement": [
+        73,
+        37
+      ],
+      "foot_anchor": [
+        160,
+        304
+      ]
+    },
+    {
+      "species": "goblin",
+      "pose": "portrait",
+      "file": "goblin/portrait.png",
+      "canvas": [
+        320,
+        320
+      ],
+      "source_region": [
+        258,
+        825,
+        522,
+        1122
+      ],
+      "source_content_box": [
+        275,
+        842,
+        493,
+        1076
+      ],
+      "native_content_size": [
+        218,
+        234
+      ],
+      "placement": [
+        51,
+        43
+      ],
+      "foot_anchor": null
+    },
+    {
+      "species": "goblin",
+      "pose": "melee",
+      "file": "goblin/melee.png",
+      "canvas": [
+        320,
+        320
+      ],
+      "source_region": [
+        522,
+        825,
+        824,
+        1122
+      ],
+      "source_content_box": [
+        542,
+        850,
+        788,
+        1081
+      ],
+      "native_content_size": [
+        246,
+        231
+      ],
+      "placement": [
+        37,
+        73
+      ],
+      "foot_anchor": [
+        160,
+        304
+      ]
+    },
+    {
+      "species": "goblin",
+      "pose": "ranged",
+      "file": "goblin/ranged.png",
+      "canvas": [
+        320,
+        320
+      ],
+      "source_region": [
+        824,
+        825,
+        1124,
+        1122
+      ],
+      "source_content_box": [
+        849,
+        852,
+        1091,
+        1092
+      ],
+      "native_content_size": [
+        242,
+        240
+      ],
+      "placement": [
+        39,
+        64
+      ],
+      "foot_anchor": [
+        160,
+        304
+      ]
+    },
+    {
+      "species": "goblin",
+      "pose": "broken",
+      "file": "goblin/broken.png",
+      "canvas": [
+        320,
+        320
+      ],
+      "source_region": [
+        1124,
+        825,
+        1402,
+        1122
+      ],
+      "source_content_box": [
+        1161,
+        839,
+        1345,
+        1098
+      ],
+      "native_content_size": [
+        184,
+        259
+      ],
+      "placement": [
+        68,
+        45
+      ],
+      "foot_anchor": [
+        160,
+        304
+      ]
+    }
+  ]
+}

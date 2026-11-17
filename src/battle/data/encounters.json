@@ -1,0 +1,1374 @@
+{
+  "version": 1,
+  "encounters": [
+    {
+      "id": "road-slimes",
+      "name": "路边软泥群",
+      "kind": "battle",
+      "strength": 1,
+      "weight": 1,
+      "groups": [
+        {
+          "species": "slime",
+          "count": 2,
+          "level": 1,
+          "rank": "normal",
+          "role": "melee"
+        }
+      ],
+      "reward": {
+        "gold": 24,
+        "items": [
+          "potion"
+        ]
+      }
+    },
+    {
+      "id": "road-foragers",
+      "name": "田边拾荒者",
+      "kind": "battle",
+      "strength": 1,
+      "weight": 1,
+      "groups": [
+        {
+          "species": "gremlin",
+          "count": 2,
+          "level": 1,
+          "rank": "normal",
+          "role": "melee"
+        }
+      ],
+      "reward": {
+        "gold": 26,
+        "items": [
+          "ether"
+        ]
+      }
+    },
+    {
+      "id": "road-mixed",
+      "name": "岔口游荡者",
+      "kind": "battle",
+      "strength": 1,
+      "weight": 1,
+      "groups": [
+        {
+          "species": "slime",
+          "count": 1,
+          "level": 1,
+          "rank": "normal",
+          "role": "melee"
+        },
+        {
+          "species": "goblin",
+          "count": 1,
+          "level": 1,
+          "rank": "normal",
+          "role": "melee",
+          "archetype": "goblin_recruit"
+        }
+      ],
+      "reward": {
+        "gold": 25,
+        "items": [
+          "contract"
+        ]
+      }
+    },
+    {
+      "id": "road-cart",
+      "name": "货车旁的怪物",
+      "kind": "battle",
+      "strength": 2,
+      "weight": 1,
+      "groups": [
+        {
+          "species": "slime",
+          "count": 2,
+          "level": 1,
+          "rank": "normal",
+          "role": "melee"
+        },
+        {
+          "species": "gremlin",
+          "count": 1,
+          "level": 1,
+          "rank": "normal",
+          "role": "melee"
+        }
+      ],
+      "reward": {
+        "gold": 32,
+        "items": [
+          "repair-kit"
+        ]
+      }
+    },
+    {
+      "id": "road-patrol",
+      "name": "林边小队",
+      "kind": "battle",
+      "strength": 2,
+      "weight": 1,
+      "groups": [
+        {
+          "species": "goblin",
+          "count": 2,
+          "level": 1,
+          "rank": "normal",
+          "role": "melee",
+          "archetype": "goblin_recruit"
+        },
+        {
+          "species": "gremlin",
+          "count": 1,
+          "level": 1,
+          "rank": "normal",
+          "role": "ranged"
+        }
+      ],
+      "reward": {
+        "gold": 34,
+        "items": [
+          "potion"
+        ]
+      }
+    },
+    {
+      "id": "road-strays",
+      "name": "荒地流窜者",
+      "kind": "battle",
+      "strength": 2,
+      "weight": 1,
+      "groups": [
+        {
+          "species": "goblin",
+          "count": 1,
+          "level": 2,
+          "rank": "normal",
+          "role": "melee",
+          "archetype": "goblin_recruit"
+        },
+        {
+          "species": "slime",
+          "count": 2,
+          "level": 1,
+          "rank": "normal",
+          "role": "melee"
+        }
+      ],
+      "reward": {
+        "gold": 34,
+        "items": [
+          "contract"
+        ]
+      }
+    },
+    {
+      "id": "road-elite-guard",
+      "name": "拦路精英与随从",
+      "kind": "elite",
+      "strength": 3,
+      "weight": 1,
+      "groups": [
+        {
+          "species": "goblin",
+          "count": 1,
+          "level": 2,
+          "rank": "elite",
+          "role": "melee",
+          "archetype": "goblin_warrior"
+        },
+        {
+          "species": "slime",
+          "count": 2,
+          "level": 1,
+          "rank": "normal",
+          "role": "melee"
+        }
+      ],
+      "reward": {
+        "gold": 58,
+        "items": [
+          "scout-bag",
+          "potion"
+        ]
+      }
+    },
+    {
+      "id": "road-elite-mage",
+      "name": "地精头目与护卫",
+      "kind": "elite",
+      "strength": 3,
+      "weight": 1,
+      "groups": [
+        {
+          "species": "gremlin",
+          "count": 1,
+          "level": 2,
+          "rank": "elite",
+          "role": "caster"
+        },
+        {
+          "species": "goblin",
+          "count": 1,
+          "level": 1,
+          "rank": "normal",
+          "role": "melee",
+          "archetype": "goblin_recruit"
+        },
+        {
+          "species": "slime",
+          "count": 1,
+          "level": 1,
+          "rank": "normal",
+          "role": "melee"
+        }
+      ],
+      "reward": {
+        "gold": 60,
+        "items": [
+          "repair-kit-large",
+          "contract"
+        ]
+      }
+    },
+    {
+      "id": "road-boss-axe",
+      "name": "大道拦路首领",
+      "kind": "boss",
+      "strength": 4,
+      "weight": 1,
+      "groups": [
+        {
+          "species": "goblin",
+          "count": 1,
+          "level": 2,
+          "rank": "boss",
+          "role": "melee",
+          "archetype": "goblin_chief"
+        },
+        {
+          "species": "goblin",
+          "count": 2,
+          "level": 1,
+          "rank": "normal",
+          "role": "melee",
+          "archetype": "goblin_recruit"
+        }
+      ],
+      "reward": {
+        "gold": 100,
+        "items": [
+          "scout-bag",
+          "revival-stone"
+        ]
+      }
+    },
+    {
+      "id": "road-boss-raiders",
+      "name": "抢掠者首领",
+      "kind": "boss",
+      "strength": 4,
+      "weight": 1,
+      "groups": [
+        {
+          "species": "goblin",
+          "count": 1,
+          "level": 2,
+          "rank": "boss",
+          "role": "melee",
+          "archetype": "goblin_chief"
+        },
+        {
+          "species": "slime",
+          "count": 1,
+          "level": 1,
+          "rank": "normal",
+          "role": "melee"
+        },
+        {
+          "species": "gremlin",
+          "count": 1,
+          "level": 1,
+          "rank": "normal",
+          "role": "ranged"
+        }
+      ],
+      "reward": {
+        "gold": 100,
+        "items": [
+          "scout-bag",
+          "revival-stone"
+        ]
+      }
+    },
+    {
+      "id": "road-ambush",
+      "name": "车厢里的伏兵",
+      "kind": "battle",
+      "strength": 2,
+      "weight": 1,
+      "groups": [
+        {
+          "species": "goblin",
+          "count": 1,
+          "level": 1,
+          "rank": "normal",
+          "role": "melee",
+          "archetype": "goblin_recruit"
+        },
+        {
+          "species": "gremlin",
+          "count": 1,
+          "level": 1,
+          "rank": "normal",
+          "role": "melee"
+        }
+      ],
+      "reward": {
+        "gold": 36,
+        "items": [
+          "contract",
+          "potion"
+        ]
+      }
+    },
+    {
+      "id": "den-lookout",
+      "name": "洞口哨兵",
+      "kind": "battle",
+      "strength": 2,
+      "weight": 1,
+      "groups": [
+        {
+          "species": "goblin",
+          "count": 2,
+          "level": 1,
+          "rank": "normal",
+          "role": "melee",
+          "archetype": "goblin_recruit"
+        },
+        {
+          "species": "gremlin",
+          "count": 1,
+          "level": 1,
+          "rank": "normal",
+          "role": "ranged"
+        }
+      ],
+      "reward": {
+        "gold": 35,
+        "items": [
+          "potion"
+        ]
+      }
+    },
+    {
+      "id": "den-slimes",
+      "name": "排水沟软泥",
+      "kind": "battle",
+      "strength": 2,
+      "weight": 1,
+      "groups": [
+        {
+          "species": "slime",
+          "count": 3,
+          "level": 1,
+          "rank": "normal",
+          "role": "melee"
+        }
+      ],
+      "reward": {
+        "gold": 32,
+        "items": [
+          "ether"
+        ]
+      }
+    },
+    {
+      "id": "den-workers",
+      "name": "搬运小队",
+      "kind": "battle",
+      "strength": 2,
+      "weight": 1,
+      "groups": [
+        {
+          "species": "goblin",
+          "count": 2,
+          "level": 1,
+          "rank": "normal",
+          "role": "melee",
+          "archetype": "goblin_recruit"
+        },
+        {
+          "species": "slime",
+          "count": 1,
+          "level": 1,
+          "rank": "normal",
+          "role": "melee"
+        }
+      ],
+      "reward": {
+        "gold": 34,
+        "items": [
+          "repair-kit"
+        ]
+      }
+    },
+    {
+      "id": "den-bow-watch",
+      "name": "深处弓哨",
+      "kind": "battle",
+      "strength": 3,
+      "weight": 1,
+      "groups": [
+        {
+          "species": "goblin",
+          "count": 2,
+          "level": 2,
+          "rank": "normal",
+          "role": "melee",
+          "archetype": "goblin_recruit"
+        },
+        {
+          "species": "gremlin",
+          "count": 1,
+          "level": 1,
+          "rank": "normal",
+          "role": "ranged"
+        }
+      ],
+      "reward": {
+        "gold": 43,
+        "items": [
+          "contract"
+        ]
+      }
+    },
+    {
+      "id": "den-scouts",
+      "name": "巡逻混编队",
+      "kind": "battle",
+      "strength": 3,
+      "weight": 1,
+      "groups": [
+        {
+          "species": "goblin",
+          "count": 2,
+          "level": 1,
+          "rank": "normal",
+          "role": "melee",
+          "archetype": "goblin_recruit"
+        },
+        {
+          "species": "slime",
+          "count": 1,
+          "level": 2,
+          "rank": "normal",
+          "role": "melee"
+        },
+        {
+          "species": "gremlin",
+          "count": 1,
+          "level": 1,
+          "rank": "normal",
+          "role": "ranged"
+        }
+      ],
+      "reward": {
+        "gold": 42,
+        "items": [
+          "potion",
+          "repair-kit"
+        ]
+      }
+    },
+    {
+      "id": "den-fungi",
+      "name": "菌洞守卫",
+      "kind": "battle",
+      "strength": 3,
+      "weight": 1,
+      "groups": [
+        {
+          "species": "slime",
+          "count": 2,
+          "level": 2,
+          "rank": "normal",
+          "role": "melee"
+        },
+        {
+          "species": "gremlin",
+          "count": 1,
+          "level": 2,
+          "rank": "normal",
+          "role": "caster"
+        }
+      ],
+      "reward": {
+        "gold": 44,
+        "items": [
+          "ether"
+        ]
+      }
+    },
+    {
+      "id": "den-inner-guard",
+      "name": "内巢卫队",
+      "kind": "battle",
+      "strength": 4,
+      "weight": 1,
+      "groups": [
+        {
+          "species": "goblin",
+          "count": 2,
+          "level": 2,
+          "rank": "normal",
+          "role": "melee",
+          "archetype": "goblin_recruit"
+        },
+        {
+          "species": "gremlin",
+          "count": 1,
+          "level": 2,
+          "rank": "normal",
+          "role": "ranged"
+        },
+        {
+          "species": "slime",
+          "count": 1,
+          "level": 1,
+          "rank": "normal",
+          "role": "melee"
+        }
+      ],
+      "reward": {
+        "gold": 50,
+        "items": [
+          "repair-kit-large"
+        ]
+      }
+    },
+    {
+      "id": "den-ritual",
+      "name": "祭仪看守",
+      "kind": "battle",
+      "strength": 4,
+      "weight": 1,
+      "groups": [
+        {
+          "species": "gremlin",
+          "count": 1,
+          "level": 2,
+          "rank": "normal",
+          "role": "caster"
+        },
+        {
+          "species": "goblin",
+          "count": 2,
+          "level": 2,
+          "rank": "normal",
+          "role": "melee",
+          "archetype": "goblin_recruit"
+        }
+      ],
+      "reward": {
+        "gold": 48,
+        "items": [
+          "ether",
+          "contract"
+        ]
+      }
+    },
+    {
+      "id": "den-elite-captain",
+      "name": "精英卫长与杂兵",
+      "kind": "elite",
+      "strength": 4,
+      "weight": 1,
+      "groups": [
+        {
+          "species": "goblin",
+          "count": 1,
+          "level": 3,
+          "rank": "elite",
+          "role": "melee",
+          "archetype": "goblin_warrior"
+        },
+        {
+          "species": "goblin",
+          "count": 2,
+          "level": 1,
+          "rank": "normal",
+          "role": "melee",
+          "archetype": "goblin_recruit"
+        }
+      ],
+      "reward": {
+        "gold": 72,
+        "items": [
+          "expedition-bag",
+          "potion"
+        ]
+      }
+    },
+    {
+      "id": "den-elite-shaman",
+      "name": "精英术士与护卫",
+      "kind": "elite",
+      "strength": 4,
+      "weight": 1,
+      "groups": [
+        {
+          "species": "gremlin",
+          "count": 1,
+          "level": 2,
+          "rank": "elite",
+          "role": "caster"
+        },
+        {
+          "species": "goblin",
+          "count": 2,
+          "level": 2,
+          "rank": "normal",
+          "role": "melee",
+          "archetype": "goblin_recruit"
+        }
+      ],
+      "reward": {
+        "gold": 74,
+        "items": [
+          "repair-kit-large",
+          "revival-stone"
+        ]
+      }
+    },
+    {
+      "id": "den-elite-keeper",
+      "name": "精英驯养者",
+      "kind": "elite",
+      "strength": 5,
+      "weight": 1,
+      "groups": [
+        {
+          "species": "goblin",
+          "count": 1,
+          "level": 3,
+          "rank": "elite",
+          "role": "melee",
+          "archetype": "goblin_warrior"
+        },
+        {
+          "species": "slime",
+          "count": 2,
+          "level": 2,
+          "rank": "normal",
+          "role": "melee"
+        },
+        {
+          "species": "gremlin",
+          "count": 1,
+          "level": 1,
+          "rank": "normal",
+          "role": "ranged"
+        }
+      ],
+      "reward": {
+        "gold": 86,
+        "items": [
+          "expedition-bag",
+          "contract"
+        ]
+      }
+    },
+    {
+      "id": "den-elite-gate",
+      "name": "内门卫长",
+      "kind": "elite",
+      "strength": 5,
+      "weight": 1,
+      "groups": [
+        {
+          "species": "goblin",
+          "count": 1,
+          "level": 3,
+          "rank": "elite",
+          "role": "melee",
+          "archetype": "goblin_warrior"
+        },
+        {
+          "species": "goblin",
+          "count": 2,
+          "level": 2,
+          "rank": "normal",
+          "role": "melee",
+          "archetype": "goblin_recruit"
+        },
+        {
+          "species": "gremlin",
+          "count": 1,
+          "level": 1,
+          "rank": "normal",
+          "role": "melee"
+        }
+      ],
+      "reward": {
+        "gold": 84,
+        "items": [
+          "repair-kit-large",
+          "potion"
+        ]
+      }
+    },
+    {
+      "id": "den-boss-chief",
+      "name": "巢穴首领与近卫",
+      "kind": "boss",
+      "strength": 6,
+      "weight": 1,
+      "groups": [
+        {
+          "species": "goblin",
+          "count": 1,
+          "level": 3,
+          "rank": "boss",
+          "role": "melee",
+          "archetype": "goblin_chief"
+        },
+        {
+          "species": "goblin",
+          "count": 2,
+          "level": 2,
+          "rank": "normal",
+          "role": "melee",
+          "archetype": "goblin_recruit"
+        },
+        {
+          "species": "gremlin",
+          "count": 1,
+          "level": 2,
+          "rank": "normal",
+          "role": "ranged"
+        }
+      ],
+      "reward": {
+        "gold": 180,
+        "items": [
+          "expedition-bag",
+          "revival-stone"
+        ]
+      }
+    },
+    {
+      "id": "den-boss-council",
+      "name": "首领与祭司",
+      "kind": "boss",
+      "strength": 6,
+      "weight": 1,
+      "groups": [
+        {
+          "species": "goblin",
+          "count": 1,
+          "level": 3,
+          "rank": "boss",
+          "role": "melee",
+          "archetype": "goblin_chief"
+        },
+        {
+          "species": "gremlin",
+          "count": 1,
+          "level": 2,
+          "rank": "normal",
+          "role": "caster"
+        },
+        {
+          "species": "slime",
+          "count": 2,
+          "level": 2,
+          "rank": "normal",
+          "role": "melee"
+        }
+      ],
+      "reward": {
+        "gold": 180,
+        "items": [
+          "expedition-bag",
+          "revival-stone"
+        ]
+      }
+    },
+    {
+      "id": "den-ambush",
+      "name": "藏宝暗室伏兵",
+      "kind": "battle",
+      "strength": 4,
+      "weight": 1,
+      "groups": [
+        {
+          "species": "goblin",
+          "count": 2,
+          "level": 2,
+          "rank": "normal",
+          "role": "melee",
+          "archetype": "goblin_recruit"
+        },
+        {
+          "species": "gremlin",
+          "count": 1,
+          "level": 1,
+          "rank": "normal",
+          "role": "ranged"
+        }
+      ],
+      "reward": {
+        "gold": 64,
+        "items": [
+          "contract",
+          "repair-kit-large"
+        ]
+      }
+    },
+    {
+      "id": "road-orc-scouts",
+      "name": "边境兽人斥候",
+      "kind": "battle",
+      "strength": 2,
+      "weight": 1,
+      "groups": [
+        {
+          "archetype": "orc_recruit",
+          "species": "orc",
+          "count": 1,
+          "level": 1,
+          "rank": "normal",
+          "role": "melee"
+        },
+        {
+          "archetype": "goblin_recruit",
+          "species": "goblin",
+          "count": 1,
+          "level": 1,
+          "rank": "normal",
+          "role": "melee"
+        }
+      ],
+      "reward": {
+        "gold": 30,
+        "items": [
+          "potion"
+        ]
+      }
+    },
+    {
+      "id": "den-raider-screen",
+      "name": "袭击者哨线",
+      "kind": "battle",
+      "strength": 3,
+      "weight": 1,
+      "groups": [
+        {
+          "archetype": "goblin_raider",
+          "species": "goblin",
+          "count": 2,
+          "level": 2,
+          "rank": "normal",
+          "role": "ranged"
+        },
+        {
+          "archetype": "goblin_warrior",
+          "species": "goblin",
+          "count": 1,
+          "level": 2,
+          "rank": "normal",
+          "role": "melee"
+        }
+      ],
+      "reward": {
+        "gold": 38,
+        "items": [
+          "ether"
+        ]
+      }
+    },
+    {
+      "id": "den-orc-guard",
+      "name": "兽人驻守队",
+      "kind": "battle",
+      "strength": 4,
+      "weight": 1,
+      "groups": [
+        {
+          "archetype": "orc_warrior",
+          "species": "orc",
+          "count": 2,
+          "level": 2,
+          "rank": "normal",
+          "role": "melee"
+        },
+        {
+          "archetype": "orc_archer",
+          "species": "orc",
+          "count": 1,
+          "level": 2,
+          "rank": "normal",
+          "role": "ranged"
+        },
+        {
+          "archetype": "goblin_recruit",
+          "species": "goblin",
+          "count": 1,
+          "level": 1,
+          "rank": "normal",
+          "role": "melee"
+        }
+      ],
+      "reward": {
+        "gold": 44,
+        "items": [
+          "repair-kit"
+        ]
+      }
+    },
+    {
+      "id": "den-orc-elite",
+      "name": "兽人精锐战团",
+      "kind": "elite",
+      "strength": 5,
+      "weight": 1,
+      "groups": [
+        {
+          "archetype": "orc_warrior",
+          "species": "orc",
+          "count": 1,
+          "level": 3,
+          "rank": "elite",
+          "role": "melee"
+        },
+        {
+          "archetype": "orc_recruit",
+          "species": "orc",
+          "count": 1,
+          "level": 2,
+          "rank": "normal",
+          "role": "melee"
+        },
+        {
+          "archetype": "orc_archer",
+          "species": "orc",
+          "count": 1,
+          "level": 2,
+          "rank": "normal",
+          "role": "ranged"
+        },
+        {
+          "archetype": "goblin_raider",
+          "species": "goblin",
+          "count": 1,
+          "level": 2,
+          "rank": "normal",
+          "role": "ranged"
+        }
+      ],
+      "reward": {
+        "gold": 65,
+        "items": [
+          "repair-kit-large"
+        ]
+      }
+    },
+    {
+      "id": "den-orc-chief",
+      "name": "巢穴中的兽人首领",
+      "kind": "boss",
+      "strength": 6,
+      "weight": 1,
+      "groups": [
+        {
+          "archetype": "orc_chief",
+          "species": "orc",
+          "count": 1,
+          "level": 3,
+          "rank": "boss",
+          "role": "melee"
+        },
+        {
+          "archetype": "orc_warrior",
+          "species": "orc",
+          "count": 2,
+          "level": 2,
+          "rank": "normal",
+          "role": "melee"
+        },
+        {
+          "archetype": "orc_archer",
+          "species": "orc",
+          "count": 1,
+          "level": 2,
+          "rank": "normal",
+          "role": "ranged"
+        }
+      ],
+      "reward": {
+        "gold": 100,
+        "items": [
+          "revival-stone"
+        ]
+      }
+    },
+    {
+      "id": "bandit-outer-scouts",
+      "name": "营寨外围斥候",
+      "kind": "battle",
+      "strength": 5,
+      "weight": 1,
+      "groups": [
+        {
+          "species": "human",
+          "appearance": "bandit_woman_blue",
+          "count": 1,
+          "level": 5,
+          "rank": "normal",
+          "role": "ranged"
+        },
+        {
+          "species": "human",
+          "appearance": "bandit_woman_scout",
+          "count": 1,
+          "level": 5,
+          "rank": "normal",
+          "role": "melee"
+        }
+      ],
+      "reward": {
+        "gold": 30,
+        "items": [
+          "potion"
+        ]
+      }
+    },
+    {
+      "id": "bandit-roadblock",
+      "name": "女匪路障",
+      "kind": "battle",
+      "strength": 5,
+      "weight": 1,
+      "groups": [
+        {
+          "species": "human",
+          "appearance": "bandit_woman_shield",
+          "count": 1,
+          "level": 5,
+          "rank": "normal",
+          "role": "melee"
+        },
+        {
+          "species": "human",
+          "appearance": "bandit_woman_blue",
+          "count": 1,
+          "level": 5,
+          "rank": "normal",
+          "role": "ranged"
+        }
+      ],
+      "reward": {
+        "gold": 30,
+        "items": [
+          "repair-kit"
+        ]
+      }
+    },
+    {
+      "id": "bandit-crossfire",
+      "name": "弓弩交叉哨",
+      "kind": "battle",
+      "strength": 6,
+      "weight": 1,
+      "groups": [
+        {
+          "species": "human",
+          "appearance": "bandit_woman_violet",
+          "count": 1,
+          "level": 5,
+          "rank": "normal",
+          "role": "ranged"
+        },
+        {
+          "species": "human",
+          "appearance": "bandit_woman_huntress",
+          "count": 1,
+          "level": 5,
+          "rank": "normal",
+          "role": "ranged"
+        },
+        {
+          "species": "human",
+          "appearance": "bandit_woman_shield",
+          "count": 1,
+          "level": 5,
+          "rank": "normal",
+          "role": "melee"
+        }
+      ],
+      "reward": {
+        "gold": 40,
+        "items": [
+          "ether"
+        ]
+      }
+    },
+    {
+      "id": "bandit-knife-patrol",
+      "name": "飞刀巡逻队",
+      "kind": "battle",
+      "strength": 6,
+      "weight": 1,
+      "groups": [
+        {
+          "species": "human",
+          "appearance": "bandit_woman_corsair",
+          "count": 1,
+          "level": 5,
+          "rank": "normal",
+          "role": "melee"
+        },
+        {
+          "species": "human",
+          "appearance": "bandit_woman_cutlass",
+          "count": 1,
+          "level": 5,
+          "rank": "normal",
+          "role": "melee"
+        },
+        {
+          "species": "human",
+          "appearance": "bandit_woman_scout",
+          "count": 1,
+          "level": 5,
+          "rank": "normal",
+          "role": "ranged"
+        }
+      ],
+      "reward": {
+        "gold": 40,
+        "items": [
+          "potion"
+        ]
+      }
+    },
+    {
+      "id": "bandit-hall-guard",
+      "name": "内寨守卫",
+      "kind": "battle",
+      "strength": 6,
+      "weight": 1,
+      "groups": [
+        {
+          "species": "human",
+          "appearance": "bandit_woman_redhead",
+          "count": 1,
+          "level": 5,
+          "rank": "normal",
+          "role": "melee"
+        },
+        {
+          "species": "human",
+          "appearance": "bandit_woman_shield",
+          "count": 1,
+          "level": 5,
+          "rank": "normal",
+          "role": "melee"
+        },
+        {
+          "species": "human",
+          "appearance": "bandit_woman_huntress",
+          "count": 1,
+          "level": 5,
+          "rank": "normal",
+          "role": "ranged"
+        }
+      ],
+      "reward": {
+        "gold": 44,
+        "items": [
+          "repair-kit"
+        ]
+      }
+    },
+    {
+      "id": "bandit-elite-swords",
+      "name": "精锐剑卫小队",
+      "kind": "elite",
+      "strength": 7,
+      "weight": 1,
+      "groups": [
+        {
+          "species": "human",
+          "appearance": "bandit_woman_shield",
+          "count": 1,
+          "level": 5,
+          "rank": "elite",
+          "role": "melee"
+        },
+        {
+          "species": "human",
+          "appearance": "bandit_woman_blue",
+          "count": 1,
+          "level": 5,
+          "rank": "normal",
+          "role": "ranged"
+        },
+        {
+          "species": "human",
+          "appearance": "bandit_woman_cutlass",
+          "count": 1,
+          "level": 5,
+          "rank": "normal",
+          "role": "melee"
+        }
+      ],
+      "reward": {
+        "gold": 65,
+        "items": [
+          "repair-kit-large"
+        ]
+      }
+    },
+    {
+      "id": "bandit-elite-archers",
+      "name": "精锐射手小队",
+      "kind": "elite",
+      "strength": 7,
+      "weight": 1,
+      "groups": [
+        {
+          "species": "human",
+          "appearance": "bandit_woman_huntress",
+          "count": 1,
+          "level": 5,
+          "rank": "elite",
+          "role": "ranged"
+        },
+        {
+          "species": "human",
+          "appearance": "bandit_woman_redhead",
+          "count": 1,
+          "level": 5,
+          "rank": "normal",
+          "role": "melee"
+        },
+        {
+          "species": "human",
+          "appearance": "bandit_woman_corsair",
+          "count": 1,
+          "level": 5,
+          "rank": "normal",
+          "role": "melee"
+        }
+      ],
+      "reward": {
+        "gold": 65,
+        "items": [
+          "ether",
+          "potion"
+        ]
+      }
+    },
+    {
+      "id": "bandit-boss-violet",
+      "name": "紫衣统领",
+      "kind": "boss",
+      "strength": 8,
+      "weight": 1,
+      "groups": [
+        {
+          "species": "human",
+          "appearance": "bandit_woman_violet",
+          "count": 1,
+          "level": 5,
+          "rank": "boss",
+          "role": "ranged",
+          "name": "紫衣匪首"
+        },
+        {
+          "species": "human",
+          "appearance": "bandit_woman_redhead",
+          "count": 1,
+          "level": 5,
+          "rank": "normal",
+          "role": "melee"
+        },
+        {
+          "species": "human",
+          "appearance": "bandit_woman_blue",
+          "count": 1,
+          "level": 5,
+          "rank": "normal",
+          "role": "ranged"
+        },
+        {
+          "species": "human",
+          "appearance": "bandit_woman_cutlass",
+          "count": 1,
+          "level": 5,
+          "rank": "normal",
+          "role": "melee"
+        }
+      ],
+      "reward": {
+        "gold": 100,
+        "items": [
+          "revival-stone"
+        ]
+      }
+    },
+    {
+      "id": "bandit-boss-red",
+      "name": "赤巾统领",
+      "kind": "boss",
+      "strength": 8,
+      "weight": 1,
+      "groups": [
+        {
+          "species": "human",
+          "appearance": "bandit_woman_shield",
+          "count": 1,
+          "level": 5,
+          "rank": "boss",
+          "role": "melee",
+          "name": "赤巾匪首"
+        },
+        {
+          "species": "human",
+          "appearance": "bandit_woman_huntress",
+          "count": 1,
+          "level": 5,
+          "rank": "normal",
+          "role": "ranged"
+        },
+        {
+          "species": "human",
+          "appearance": "bandit_woman_corsair",
+          "count": 1,
+          "level": 5,
+          "rank": "normal",
+          "role": "melee"
+        },
+        {
+          "species": "human",
+          "appearance": "bandit_woman_scout",
+          "count": 1,
+          "level": 5,
+          "rank": "normal",
+          "role": "melee"
+        }
+      ],
+      "reward": {
+        "gold": 100,
+        "items": [
+          "revival-stone"
+        ]
+      }
+    }
+  ]
+}

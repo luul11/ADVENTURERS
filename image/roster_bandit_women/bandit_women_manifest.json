@@ -1,0 +1,1100 @@
+{
+  "version": 1,
+  "sources": {
+    "card_roster_bandit_women_5x4.png": {
+      "size": [
+        1402,
+        1122
+      ],
+      "sha256": "0aa7f8176203b51f2ea68c13e0992ae5978b70c6502b6d25575081b803c917f4",
+      "row_edges_by_column": [
+        [
+          0,
+          273,
+          556,
+          832,
+          1122
+        ],
+        [
+          0,
+          275,
+          556,
+          833,
+          1122
+        ],
+        [
+          0,
+          280,
+          560,
+          834,
+          1122
+        ],
+        [
+          0,
+          282,
+          558,
+          830,
+          1122
+        ],
+        [
+          0,
+          279,
+          555,
+          836,
+          1122
+        ]
+      ]
+    },
+    "bandit-set-2-simple.png": {
+      "size": [
+        1402,
+        1122
+      ],
+      "sha256": "69feec757c5c4d5b1775922e285ae02d271c1ad1fe3a4e970a81bee5f27443ad",
+      "row_edges_by_column": [
+        [
+          0,
+          275,
+          561,
+          841,
+          1122
+        ],
+        [
+          0,
+          281,
+          560,
+          843,
+          1122
+        ],
+        [
+          0,
+          284,
+          568,
+          850,
+          1122
+        ],
+        [
+          0,
+          287,
+          573,
+          842,
+          1122
+        ],
+        [
+          0,
+          277,
+          563,
+          843,
+          1122
+        ]
+      ]
+    }
+  },
+  "sprites": [
+    {
+      "id": "bandit_woman_blue",
+      "pose": "idle",
+      "file": "bandit_woman_blue_idle.png",
+      "runtime_file": "bandit_woman_blue_idle.webp",
+      "runtime_bytes": 14074,
+      "source": "card_roster_bandit_women_5x4.png",
+      "source_column": 1,
+      "source_box": [
+        0,
+        0,
+        280,
+        273
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        28,
+        14,
+        165,
+        246
+      ]
+    },
+    {
+      "id": "bandit_woman_blue",
+      "pose": "portrait",
+      "file": "bandit_woman_blue_portrait.png",
+      "runtime_file": "bandit_woman_blue_portrait.webp",
+      "runtime_bytes": 23112,
+      "source": "card_roster_bandit_women_5x4.png",
+      "source_column": 2,
+      "source_box": [
+        280,
+        0,
+        561,
+        275
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        0,
+        15,
+        206,
+        249
+      ]
+    },
+    {
+      "id": "bandit_woman_blue",
+      "pose": "melee",
+      "file": "bandit_woman_blue_melee.png",
+      "runtime_file": "bandit_woman_blue_melee.webp",
+      "runtime_bytes": 18234,
+      "source": "card_roster_bandit_women_5x4.png",
+      "source_column": 3,
+      "source_box": [
+        561,
+        0,
+        841,
+        280
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        7,
+        21,
+        210,
+        245
+      ]
+    },
+    {
+      "id": "bandit_woman_blue",
+      "pose": "ranged",
+      "file": "bandit_woman_blue_ranged.png",
+      "runtime_file": "bandit_woman_blue_ranged.webp",
+      "runtime_bytes": 17726,
+      "source": "card_roster_bandit_women_5x4.png",
+      "source_column": 4,
+      "source_box": [
+        841,
+        0,
+        1122,
+        282
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        39,
+        20,
+        248,
+        246
+      ]
+    },
+    {
+      "id": "bandit_woman_blue",
+      "pose": "broken",
+      "file": "bandit_woman_blue_broken.png",
+      "runtime_file": "bandit_woman_blue_broken.webp",
+      "runtime_bytes": 15000,
+      "source": "card_roster_bandit_women_5x4.png",
+      "source_column": 5,
+      "source_box": [
+        1122,
+        0,
+        1402,
+        279
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        47,
+        10,
+        191,
+        245
+      ]
+    },
+    {
+      "id": "bandit_woman_shield",
+      "pose": "idle",
+      "file": "bandit_woman_shield_idle.png",
+      "runtime_file": "bandit_woman_shield_idle.webp",
+      "runtime_bytes": 15722,
+      "source": "card_roster_bandit_women_5x4.png",
+      "source_column": 1,
+      "source_box": [
+        0,
+        273,
+        280,
+        556
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        26,
+        9,
+        183,
+        248
+      ]
+    },
+    {
+      "id": "bandit_woman_shield",
+      "pose": "portrait",
+      "file": "bandit_woman_shield_portrait.png",
+      "runtime_file": "bandit_woman_shield_portrait.webp",
+      "runtime_bytes": 24352,
+      "source": "card_roster_bandit_women_5x4.png",
+      "source_column": 2,
+      "source_box": [
+        280,
+        275,
+        561,
+        556
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        0,
+        5,
+        256,
+        247
+      ]
+    },
+    {
+      "id": "bandit_woman_shield",
+      "pose": "melee",
+      "file": "bandit_woman_shield_melee.png",
+      "runtime_file": "bandit_woman_shield_melee.webp",
+      "runtime_bytes": 20994,
+      "source": "card_roster_bandit_women_5x4.png",
+      "source_column": 3,
+      "source_box": [
+        561,
+        280,
+        841,
+        560
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        0,
+        12,
+        230,
+        244
+      ]
+    },
+    {
+      "id": "bandit_woman_shield",
+      "pose": "ranged",
+      "file": "bandit_woman_shield_ranged.png",
+      "runtime_file": "bandit_woman_shield_ranged.webp",
+      "runtime_bytes": 19382,
+      "source": "card_roster_bandit_women_5x4.png",
+      "source_column": 4,
+      "source_box": [
+        841,
+        282,
+        1122,
+        558
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        39,
+        13,
+        256,
+        243
+      ]
+    },
+    {
+      "id": "bandit_woman_shield",
+      "pose": "broken",
+      "file": "bandit_woman_shield_broken.png",
+      "runtime_file": "bandit_woman_shield_broken.webp",
+      "runtime_bytes": 16578,
+      "source": "card_roster_bandit_women_5x4.png",
+      "source_column": 5,
+      "source_box": [
+        1122,
+        279,
+        1402,
+        555
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        0,
+        12,
+        201,
+        244
+      ]
+    },
+    {
+      "id": "bandit_woman_corsair",
+      "pose": "idle",
+      "file": "bandit_woman_corsair_idle.png",
+      "runtime_file": "bandit_woman_corsair_idle.webp",
+      "runtime_bytes": 21618,
+      "source": "card_roster_bandit_women_5x4.png",
+      "source_column": 1,
+      "source_box": [
+        0,
+        556,
+        280,
+        832
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        11,
+        12,
+        256,
+        249
+      ]
+    },
+    {
+      "id": "bandit_woman_corsair",
+      "pose": "portrait",
+      "file": "bandit_woman_corsair_portrait.png",
+      "runtime_file": "bandit_woman_corsair_portrait.webp",
+      "runtime_bytes": 25018,
+      "source": "card_roster_bandit_women_5x4.png",
+      "source_column": 2,
+      "source_box": [
+        280,
+        556,
+        561,
+        833
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        0,
+        11,
+        227,
+        248
+      ]
+    },
+    {
+      "id": "bandit_woman_corsair",
+      "pose": "melee",
+      "file": "bandit_woman_corsair_melee.png",
+      "runtime_file": "bandit_woman_corsair_melee.webp",
+      "runtime_bytes": 24638,
+      "source": "card_roster_bandit_women_5x4.png",
+      "source_column": 3,
+      "source_box": [
+        561,
+        560,
+        841,
+        834
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        10,
+        16,
+        247,
+        243
+      ]
+    },
+    {
+      "id": "bandit_woman_corsair",
+      "pose": "ranged",
+      "file": "bandit_woman_corsair_ranged.png",
+      "runtime_file": "bandit_woman_corsair_ranged.webp",
+      "runtime_bytes": 24638,
+      "source": "card_roster_bandit_women_5x4.png",
+      "source_column": 3,
+      "source_box": [
+        561,
+        560,
+        841,
+        834
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        10,
+        16,
+        247,
+        243
+      ]
+    },
+    {
+      "id": "bandit_woman_corsair",
+      "pose": "broken",
+      "file": "bandit_woman_corsair_broken.png",
+      "runtime_file": "bandit_woman_corsair_broken.webp",
+      "runtime_bytes": 22602,
+      "source": "card_roster_bandit_women_5x4.png",
+      "source_column": 5,
+      "source_box": [
+        1122,
+        555,
+        1402,
+        836
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        0,
+        10,
+        229,
+        246
+      ]
+    },
+    {
+      "id": "bandit_woman_violet",
+      "pose": "idle",
+      "file": "bandit_woman_violet_idle.png",
+      "runtime_file": "bandit_woman_violet_idle.webp",
+      "runtime_bytes": 17118,
+      "source": "card_roster_bandit_women_5x4.png",
+      "source_column": 1,
+      "source_box": [
+        0,
+        832,
+        280,
+        1122
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        11,
+        7,
+        185,
+        246
+      ]
+    },
+    {
+      "id": "bandit_woman_violet",
+      "pose": "portrait",
+      "file": "bandit_woman_violet_portrait.png",
+      "runtime_file": "bandit_woman_violet_portrait.webp",
+      "runtime_bytes": 20988,
+      "source": "card_roster_bandit_women_5x4.png",
+      "source_column": 2,
+      "source_box": [
+        280,
+        833,
+        561,
+        1122
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        3,
+        6,
+        210,
+        247
+      ]
+    },
+    {
+      "id": "bandit_woman_violet",
+      "pose": "melee",
+      "file": "bandit_woman_violet_melee.png",
+      "runtime_file": "bandit_woman_violet_melee.webp",
+      "runtime_bytes": 19824,
+      "source": "card_roster_bandit_women_5x4.png",
+      "source_column": 3,
+      "source_box": [
+        561,
+        834,
+        841,
+        1122
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        10,
+        11,
+        231,
+        244
+      ]
+    },
+    {
+      "id": "bandit_woman_violet",
+      "pose": "ranged",
+      "file": "bandit_woman_violet_ranged.png",
+      "runtime_file": "bandit_woman_violet_ranged.webp",
+      "runtime_bytes": 22432,
+      "source": "card_roster_bandit_women_5x4.png",
+      "source_column": 4,
+      "source_box": [
+        841,
+        830,
+        1122,
+        1122
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        39,
+        6,
+        244,
+        246
+      ]
+    },
+    {
+      "id": "bandit_woman_violet",
+      "pose": "broken",
+      "file": "bandit_woman_violet_broken.png",
+      "runtime_file": "bandit_woman_violet_broken.webp",
+      "runtime_bytes": 19038,
+      "source": "card_roster_bandit_women_5x4.png",
+      "source_column": 5,
+      "source_box": [
+        1122,
+        836,
+        1402,
+        1122
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        28,
+        11,
+        209,
+        246
+      ]
+    },
+    {
+      "id": "bandit_woman_scout",
+      "pose": "idle",
+      "file": "bandit_woman_scout_idle.png",
+      "runtime_file": "bandit_woman_scout_idle.webp",
+      "runtime_bytes": 13144,
+      "source": "bandit-set-2-simple.png",
+      "source_column": 1,
+      "source_box": [
+        0,
+        0,
+        280,
+        275
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        44,
+        11,
+        172,
+        250
+      ]
+    },
+    {
+      "id": "bandit_woman_scout",
+      "pose": "portrait",
+      "file": "bandit_woman_scout_portrait.png",
+      "runtime_file": "bandit_woman_scout_portrait.webp",
+      "runtime_bytes": 19542,
+      "source": "bandit-set-2-simple.png",
+      "source_column": 2,
+      "source_box": [
+        280,
+        0,
+        561,
+        281
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        4,
+        9,
+        215,
+        252
+      ]
+    },
+    {
+      "id": "bandit_woman_scout",
+      "pose": "melee",
+      "file": "bandit_woman_scout_melee.png",
+      "runtime_file": "bandit_woman_scout_melee.webp",
+      "runtime_bytes": 15112,
+      "source": "bandit-set-2-simple.png",
+      "source_column": 3,
+      "source_box": [
+        561,
+        0,
+        841,
+        284
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        6,
+        15,
+        234,
+        244
+      ]
+    },
+    {
+      "id": "bandit_woman_scout",
+      "pose": "ranged",
+      "file": "bandit_woman_scout_ranged.png",
+      "runtime_file": "bandit_woman_scout_ranged.webp",
+      "runtime_bytes": 14936,
+      "source": "bandit-set-2-simple.png",
+      "source_column": 4,
+      "source_box": [
+        841,
+        0,
+        1122,
+        287
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        24,
+        15,
+        245,
+        241
+      ]
+    },
+    {
+      "id": "bandit_woman_scout",
+      "pose": "broken",
+      "file": "bandit_woman_scout_broken.png",
+      "runtime_file": "bandit_woman_scout_broken.webp",
+      "runtime_bytes": 13408,
+      "source": "bandit-set-2-simple.png",
+      "source_column": 5,
+      "source_box": [
+        1122,
+        0,
+        1402,
+        277
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        74,
+        11,
+        191,
+        249
+      ]
+    },
+    {
+      "id": "bandit_woman_redhead",
+      "pose": "idle",
+      "file": "bandit_woman_redhead_idle.png",
+      "runtime_file": "bandit_woman_redhead_idle.webp",
+      "runtime_bytes": 15204,
+      "source": "bandit-set-2-simple.png",
+      "source_column": 1,
+      "source_box": [
+        0,
+        275,
+        280,
+        561
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        32,
+        5,
+        253,
+        252
+      ]
+    },
+    {
+      "id": "bandit_woman_redhead",
+      "pose": "portrait",
+      "file": "bandit_woman_redhead_portrait.png",
+      "runtime_file": "bandit_woman_redhead_portrait.webp",
+      "runtime_bytes": 22852,
+      "source": "bandit-set-2-simple.png",
+      "source_column": 2,
+      "source_box": [
+        280,
+        281,
+        561,
+        560
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        0,
+        7,
+        216,
+        251
+      ]
+    },
+    {
+      "id": "bandit_woman_redhead",
+      "pose": "melee",
+      "file": "bandit_woman_redhead_melee.png",
+      "runtime_file": "bandit_woman_redhead_melee.webp",
+      "runtime_bytes": 19024,
+      "source": "bandit-set-2-simple.png",
+      "source_column": 3,
+      "source_box": [
+        561,
+        284,
+        841,
+        568
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        4,
+        13,
+        219,
+        244
+      ]
+    },
+    {
+      "id": "bandit_woman_redhead",
+      "pose": "ranged",
+      "file": "bandit_woman_redhead_ranged.png",
+      "runtime_file": "bandit_woman_redhead_ranged.webp",
+      "runtime_bytes": 15832,
+      "source": "bandit-set-2-simple.png",
+      "source_column": 4,
+      "source_box": [
+        841,
+        287,
+        1122,
+        573
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        24,
+        17,
+        254,
+        240
+      ]
+    },
+    {
+      "id": "bandit_woman_redhead",
+      "pose": "broken",
+      "file": "bandit_woman_redhead_broken.png",
+      "runtime_file": "bandit_woman_redhead_broken.webp",
+      "runtime_bytes": 16624,
+      "source": "bandit-set-2-simple.png",
+      "source_column": 5,
+      "source_box": [
+        1122,
+        277,
+        1402,
+        563
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        2,
+        7,
+        215,
+        251
+      ]
+    },
+    {
+      "id": "bandit_woman_cutlass",
+      "pose": "idle",
+      "file": "bandit_woman_cutlass_idle.png",
+      "runtime_file": "bandit_woman_cutlass_idle.webp",
+      "runtime_bytes": 19988,
+      "source": "bandit-set-2-simple.png",
+      "source_column": 1,
+      "source_box": [
+        0,
+        561,
+        280,
+        841
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        5,
+        6,
+        256,
+        252
+      ]
+    },
+    {
+      "id": "bandit_woman_cutlass",
+      "pose": "portrait",
+      "file": "bandit_woman_cutlass_portrait.png",
+      "runtime_file": "bandit_woman_cutlass_portrait.webp",
+      "runtime_bytes": 21162,
+      "source": "bandit-set-2-simple.png",
+      "source_column": 2,
+      "source_box": [
+        280,
+        560,
+        561,
+        843
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        1,
+        5,
+        225,
+        252
+      ]
+    },
+    {
+      "id": "bandit_woman_cutlass",
+      "pose": "melee",
+      "file": "bandit_woman_cutlass_melee.png",
+      "runtime_file": "bandit_woman_cutlass_melee.webp",
+      "runtime_bytes": 23066,
+      "source": "bandit-set-2-simple.png",
+      "source_column": 3,
+      "source_box": [
+        561,
+        568,
+        841,
+        850
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        1,
+        13,
+        255,
+        244
+      ]
+    },
+    {
+      "id": "bandit_woman_cutlass",
+      "pose": "ranged",
+      "file": "bandit_woman_cutlass_ranged.png",
+      "runtime_file": "bandit_woman_cutlass_ranged.webp",
+      "runtime_bytes": 17514,
+      "source": "bandit-set-2-simple.png",
+      "source_column": 4,
+      "source_box": [
+        841,
+        573,
+        1122,
+        842
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        0,
+        24,
+        255,
+        250
+      ]
+    },
+    {
+      "id": "bandit_woman_cutlass",
+      "pose": "broken",
+      "file": "bandit_woman_cutlass_broken.png",
+      "runtime_file": "bandit_woman_cutlass_broken.webp",
+      "runtime_bytes": 17186,
+      "source": "bandit-set-2-simple.png",
+      "source_column": 5,
+      "source_box": [
+        1122,
+        563,
+        1402,
+        843
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        37,
+        6,
+        207,
+        253
+      ]
+    },
+    {
+      "id": "bandit_woman_huntress",
+      "pose": "idle",
+      "file": "bandit_woman_huntress_idle.png",
+      "runtime_file": "bandit_woman_huntress_idle.webp",
+      "runtime_bytes": 14346,
+      "source": "bandit-set-2-simple.png",
+      "source_column": 1,
+      "source_box": [
+        0,
+        841,
+        280,
+        1122
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        11,
+        6,
+        255,
+        253
+      ]
+    },
+    {
+      "id": "bandit_woman_huntress",
+      "pose": "portrait",
+      "file": "bandit_woman_huntress_portrait.png",
+      "runtime_file": "bandit_woman_huntress_portrait.webp",
+      "runtime_bytes": 21328,
+      "source": "bandit-set-2-simple.png",
+      "source_column": 2,
+      "source_box": [
+        280,
+        843,
+        561,
+        1122
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        0,
+        6,
+        256,
+        255
+      ]
+    },
+    {
+      "id": "bandit_woman_huntress",
+      "pose": "melee",
+      "file": "bandit_woman_huntress_melee.png",
+      "runtime_file": "bandit_woman_huntress_melee.webp",
+      "runtime_bytes": 17816,
+      "source": "bandit-set-2-simple.png",
+      "source_column": 3,
+      "source_box": [
+        561,
+        850,
+        841,
+        1122
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        0,
+        16,
+        256,
+        249
+      ]
+    },
+    {
+      "id": "bandit_woman_huntress",
+      "pose": "ranged",
+      "file": "bandit_woman_huntress_ranged.png",
+      "runtime_file": "bandit_woman_huntress_ranged.webp",
+      "runtime_bytes": 19112,
+      "source": "bandit-set-2-simple.png",
+      "source_column": 4,
+      "source_box": [
+        841,
+        842,
+        1122,
+        1122
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        0,
+        0,
+        256,
+        255
+      ]
+    },
+    {
+      "id": "bandit_woman_huntress",
+      "pose": "broken",
+      "file": "bandit_woman_huntress_broken.png",
+      "runtime_file": "bandit_woman_huntress_broken.webp",
+      "runtime_bytes": 16832,
+      "source": "bandit-set-2-simple.png",
+      "source_column": 5,
+      "source_box": [
+        1122,
+        843,
+        1402,
+        1122
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        0,
+        3,
+        193,
+        252
+      ]
+    }
+  ],
+  "source_overrides": {
+    "bandit_woman_corsair": {
+      "ranged": 2
+    }
+  }
+}

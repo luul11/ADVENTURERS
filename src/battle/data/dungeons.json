@@ -1,0 +1,333 @@
+{
+  "version": 1,
+  "dungeons": [
+    {
+      "id": "suburban-road",
+      "name": "城郊大道",
+      "tag": "新手推荐",
+      "description": "沿大道清理游荡怪物，学习补给、契约和路线取舍。",
+      "layers": [
+        [
+          "battle"
+        ],
+        [
+          "event",
+          "rest"
+        ],
+        [
+          "battle",
+          "shop",
+          "event"
+        ],
+        [
+          "rest",
+          "elite"
+        ],
+        [
+          "extract",
+          "event"
+        ],
+        [
+          "boss"
+        ]
+      ],
+      "phases": [
+        {
+          "from": 0,
+          "to": 1,
+          "strength": {
+            "battle": [
+              1
+            ],
+            "elite": [
+              3
+            ],
+            "boss": [
+              4
+            ]
+          }
+        },
+        {
+          "from": 2,
+          "to": 5,
+          "strength": {
+            "battle": [
+              2
+            ],
+            "elite": [
+              3
+            ],
+            "boss": [
+              4
+            ]
+          }
+        }
+      ],
+      "encounterPool": [
+        "road-slimes",
+        "road-foragers",
+        "road-mixed",
+        "road-cart",
+        "road-patrol",
+        "road-strays",
+        "road-elite-guard",
+        "road-elite-mage",
+        "road-boss-axe",
+        "road-boss-raiders",
+        "road-orc-scouts"
+      ],
+      "eventPool": [
+        "overturned-cart",
+        "herbalist",
+        "injured-scout",
+        "road-shrine",
+        "contract-wanderer",
+        "abandoned-cache"
+      ],
+      "rest": {
+        "hp": 0.5,
+        "mp": 0.6,
+        "armor": 0.6
+      },
+      "restDescription": "存活队员恢复50%生命、60%魔力与60%护甲。",
+      "extractionGold": 40,
+      "completionGold": 60,
+      "humanChance": 0.05
+    },
+    {
+      "id": "goblin-den",
+      "name": "哥布林巢穴",
+      "tag": "深入挑战",
+      "description": "从洞口哨站深入首领内巢，利用侦察、补给和招募维持长线作战。",
+      "layers": [
+        [
+          "battle"
+        ],
+        [
+          "event",
+          "rest"
+        ],
+        [
+          "battle",
+          "elite",
+          "shop"
+        ],
+        [
+          "event",
+          "battle",
+          "rest"
+        ],
+        [
+          "battle",
+          "battle",
+          "elite"
+        ],
+        [
+          "extract",
+          "rest",
+          "shop"
+        ],
+        [
+          "elite",
+          "battle",
+          "event"
+        ],
+        [
+          "rest",
+          "event"
+        ],
+        [
+          "battle",
+          "elite"
+        ],
+        [
+          "boss"
+        ]
+      ],
+      "phases": [
+        {
+          "from": 0,
+          "to": 1,
+          "strength": {
+            "battle": [
+              2
+            ],
+            "elite": [
+              4
+            ],
+            "boss": [
+              6
+            ]
+          }
+        },
+        {
+          "from": 2,
+          "to": 5,
+          "strength": {
+            "battle": [
+              3
+            ],
+            "elite": [
+              4
+            ],
+            "boss": [
+              6
+            ]
+          }
+        },
+        {
+          "from": 6,
+          "to": 9,
+          "strength": {
+            "battle": [
+              4
+            ],
+            "elite": [
+              5
+            ],
+            "boss": [
+              6
+            ]
+          }
+        }
+      ],
+      "encounterPool": [
+        "den-lookout",
+        "den-slimes",
+        "den-workers",
+        "den-bow-watch",
+        "den-scouts",
+        "den-fungi",
+        "den-inner-guard",
+        "den-ritual",
+        "den-elite-captain",
+        "den-elite-shaman",
+        "den-elite-keeper",
+        "den-elite-gate",
+        "den-boss-chief",
+        "den-boss-council",
+        "den-raider-screen",
+        "den-orc-guard",
+        "den-orc-elite",
+        "den-orc-chief"
+      ],
+      "eventPool": [
+        "injured-scout",
+        "contract-wanderer",
+        "mushroom-grotto",
+        "prison-cage",
+        "abandoned-forge",
+        "watch-post",
+        "totem-chamber",
+        "smuggler-cache"
+      ],
+      "rest": {
+        "hp": 0.4,
+        "mp": 0.5,
+        "armor": 0.5
+      },
+      "restDescription": "存活队员恢复40%生命、50%魔力与50%护甲。",
+      "extractionGold": 70,
+      "completionGold": 100,
+      "humanChance": 0.08
+    },
+    {
+      "id": "bandit-camp",
+      "name": "女匪营寨",
+      "tag": "推荐 Lv5",
+      "description": "突破女匪哨线与内寨，搜集装备，选择带走战利品或挑战匪首。",
+      "humanChance": 0,
+      "layers": [
+        [
+          "battle"
+        ],
+        [
+          "battle",
+          "event"
+        ],
+        [
+          "elite",
+          "rest"
+        ],
+        [
+          "battle"
+        ],
+        [
+          "shop",
+          "event",
+          "rest"
+        ],
+        [
+          "battle",
+          "elite"
+        ],
+        [
+          "extract",
+          "rest",
+          "event"
+        ],
+        [
+          "boss"
+        ]
+      ],
+      "phases": [
+        {
+          "from": 0,
+          "to": 1,
+          "strength": {
+            "battle": [
+              5
+            ],
+            "elite": [
+              7
+            ],
+            "boss": [
+              8
+            ]
+          }
+        },
+        {
+          "from": 2,
+          "to": 7,
+          "strength": {
+            "battle": [
+              6
+            ],
+            "elite": [
+              7
+            ],
+            "boss": [
+              8
+            ]
+          }
+        }
+      ],
+      "encounterPool": [
+        "bandit-outer-scouts",
+        "bandit-roadblock",
+        "bandit-crossfire",
+        "bandit-knife-patrol",
+        "bandit-hall-guard",
+        "bandit-elite-swords",
+        "bandit-elite-archers",
+        "bandit-boss-violet",
+        "bandit-boss-red"
+      ],
+      "eventPool": [
+        "injured-scout",
+        "herbalist",
+        "overturned-cart",
+        "watch-post",
+        "mushroom-grotto"
+      ],
+      "rest": {
+        "hp": 0.4,
+        "mp": 0.5,
+        "armor": 0.4
+      },
+      "restDescription": "在隐蔽营火旁休息，恢复40%生命、50%魔力与40%护甲。",
+      "extractionGold": 90,
+      "completionGold": 160
+    }
+  ]
+}

@@ -1,0 +1,134 @@
+html:has(.title-screen) { scrollbar-gutter: auto; }
+
+.title-screen {
+    --cover-text: #f4f0e8;
+    --cover-muted: #d4cbbd;
+    position: relative;
+    isolation: isolate;
+    width: 100%;
+    height: 100vh;
+    height: 100dvh;
+    min-height: 360px;
+    overflow: hidden;
+    background: #111b22;
+    color: var(--cover-text);
+}
+
+.title-screen-art {
+    position: absolute;
+    z-index: -1;
+    inset: 0;
+    background: linear-gradient(180deg, rgb(10 17 25 / 44%), rgb(10 17 25 / 20%) 45%, rgb(10 17 25 / 6%) 65%, rgb(10 17 25 / 86%)), url('/assets/adventurers_cover.webp') center 58% / cover no-repeat;
+}
+
+.title-screen-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: clamp(64px, 16vh, 180px) 24px 80px;
+    text-align: center;
+    animation: title-screen-enter 250ms ease-out both;
+}
+
+.title-screen-emblem {
+    display: grid;
+    place-items: center;
+    width: 52px;
+    height: 52px;
+    color: #ffdfb5;
+    border: 1px solid rgb(255 223 181 / 50%);
+    border-radius: 50%;
+    background: rgb(17 27 34 / 30%);
+}
+
+.title-screen h1 {
+    margin: 20px 0 12px;
+    padding-left: .12em;
+    font-family: 'STKaiti', 'KaiTi', 'Noto Serif SC', serif;
+    font-size: clamp(52px, 7.5vw, 100px);
+    font-weight: 700;
+    line-height: 1.15;
+    letter-spacing: .12em;
+    text-shadow: 0 3px 28px rgb(7 14 22 / 65%);
+}
+
+.title-screen-english {
+    margin: 0;
+    padding-left: .42em;
+    color: var(--cover-muted);
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: .42em;
+    line-height: 1.5;
+}
+
+.title-screen-start {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 28px;
+    width: 228px;
+    min-height: 56px;
+    margin-top: clamp(36px, 7vh, 76px);
+    border: 1px solid #ffe7b3;
+    border-radius: 8px;
+    background: linear-gradient(135deg, #ffe0a3, #ffc53d);
+    color: #302008;
+    box-shadow: 0 8px 32px rgb(0 0 0 / 22%);
+    font-family: inherit;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1.4;
+    cursor: pointer;
+    transition: background 150ms ease-out, transform 150ms ease-out, box-shadow 150ms ease-out;
+}
+
+.title-screen-start:hover {
+    background: #ffe7b3;
+    box-shadow: 0 10px 36px rgb(0 0 0 / 30%);
+    transform: translateY(-2px);
+}
+
+.title-screen-start:active { transform: translateY(0); }
+.title-screen-start:focus-visible { outline: 3px solid var(--cover-text); outline-offset: 5px; }
+.title-screen-start:disabled { cursor: wait; transform: none; }
+
+.title-screen-footer {
+    position: absolute;
+    right: max(28px, env(safe-area-inset-right));
+    bottom: max(24px, env(safe-area-inset-bottom));
+    left: max(28px, env(safe-area-inset-left));
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    color: var(--cover-muted);
+    font-size: 12px;
+    line-height: 1.5;
+}
+
+.title-screen-footer strong { margin-left: 8px; color: var(--cover-text); font-weight: 500; }
+
+@keyframes title-screen-enter {
+    from { opacity: 0; transform: translateY(8px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+@media (max-width: 600px) {
+    .title-screen-content { padding-top: 18vh; }
+    .title-screen-art { background-position: center, 52% center; }
+    .title-screen-footer { right: max(20px, env(safe-area-inset-right)); left: max(20px, env(safe-area-inset-left)); }
+}
+
+@media (max-height: 520px) and (min-width: 600px) {
+    .title-screen-content { padding-top: 28px; }
+    .title-screen-emblem { width: 36px; height: 36px; }
+    .title-screen h1 { margin-top: 12px; font-size: 52px; }
+    .title-screen-start { margin-top: 24px; min-height: 48px; }
+    .title-screen-footer { bottom: max(16px, env(safe-area-inset-bottom)); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .title-screen-content { animation: none; }
+    .title-screen-start { transition: none; }
+    .title-screen-start:hover { transform: none; }
+}

@@ -1,0 +1,460 @@
+{
+  "version": 1,
+  "poses": [
+    "idle",
+    "portrait",
+    "melee",
+    "ranged",
+    "broken"
+  ],
+  "size": 256,
+  "sources": {
+    "card_roster_5x4_four_heroes.png": "0d4f66e123ea6a180edf84292a0c3916ea14252ecbdcfff455b51b0c69b22c02"
+  },
+  "source_size": [
+    1402,
+    1122
+  ],
+  "sprites": [
+    {
+      "id": "xu_guardian",
+      "pose": "idle",
+      "file": "xu_guardian_idle.png",
+      "source_box": [
+        0,
+        0,
+        280,
+        280
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        2,
+        5,
+        211,
+        246
+      ],
+      "bytes": 61998
+    },
+    {
+      "id": "xu_guardian",
+      "pose": "portrait",
+      "file": "xu_guardian_portrait.png",
+      "source_box": [
+        280,
+        0,
+        561,
+        280
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        0,
+        4,
+        256,
+        245
+      ],
+      "bytes": 94683
+    },
+    {
+      "id": "xu_guardian",
+      "pose": "melee",
+      "file": "xu_guardian_melee.png",
+      "source_box": [
+        561,
+        0,
+        841,
+        280
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        0,
+        24,
+        210,
+        256
+      ],
+      "bytes": 65919
+    },
+    {
+      "id": "xu_guardian",
+      "pose": "ranged",
+      "file": "xu_guardian_ranged.png",
+      "source_box": [
+        841,
+        0,
+        1122,
+        280
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        0,
+        12,
+        216,
+        255
+      ],
+      "bytes": 64893
+    },
+    {
+      "id": "xu_guardian",
+      "pose": "broken",
+      "file": "xu_guardian_broken.png",
+      "source_box": [
+        1122,
+        0,
+        1402,
+        280
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        3,
+        4,
+        218,
+        251
+      ],
+      "bytes": 75363
+    },
+    {
+      "id": "dong_ranger",
+      "pose": "idle",
+      "file": "dong_ranger_idle.png",
+      "source_box": [
+        0,
+        280,
+        280,
+        561
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        45,
+        14,
+        255,
+        251
+      ],
+      "bytes": 51012
+    },
+    {
+      "id": "dong_ranger",
+      "pose": "portrait",
+      "file": "dong_ranger_portrait.png",
+      "source_box": [
+        280,
+        280,
+        561,
+        561
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        0,
+        2,
+        220,
+        250
+      ],
+      "bytes": 95416
+    },
+    {
+      "id": "dong_ranger",
+      "pose": "melee",
+      "file": "dong_ranger_melee.png",
+      "source_box": [
+        561,
+        280,
+        841,
+        561
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        31,
+        0,
+        213,
+        256
+      ],
+      "bytes": 54472
+    },
+    {
+      "id": "dong_ranger",
+      "pose": "ranged",
+      "file": "dong_ranger_ranged.png",
+      "source_box": [
+        841,
+        280,
+        1122,
+        561
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        32,
+        0,
+        222,
+        256
+      ],
+      "bytes": 51663
+    },
+    {
+      "id": "dong_ranger",
+      "pose": "broken",
+      "file": "dong_ranger_broken.png",
+      "source_box": [
+        1122,
+        280,
+        1402,
+        561
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        43,
+        14,
+        226,
+        251
+      ],
+      "bytes": 58561
+    },
+    {
+      "id": "elf_archer",
+      "pose": "idle",
+      "file": "elf_archer_idle.png",
+      "source_box": [
+        0,
+        561,
+        280,
+        842
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        46,
+        20,
+        255,
+        252
+      ],
+      "bytes": 55930
+    },
+    {
+      "id": "elf_archer",
+      "pose": "portrait",
+      "file": "elf_archer_portrait.png",
+      "source_box": [
+        280,
+        561,
+        561,
+        842
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        0,
+        15,
+        219,
+        253
+      ],
+      "bytes": 102266
+    },
+    {
+      "id": "elf_archer",
+      "pose": "melee",
+      "file": "elf_archer_melee.png",
+      "source_box": [
+        561,
+        561,
+        841,
+        842
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        12,
+        0,
+        222,
+        254
+      ],
+      "bytes": 71943
+    },
+    {
+      "id": "elf_archer",
+      "pose": "ranged",
+      "file": "elf_archer_ranged.png",
+      "source_box": [
+        841,
+        561,
+        1122,
+        842
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        47,
+        0,
+        226,
+        256
+      ],
+      "bytes": 55312
+    },
+    {
+      "id": "elf_archer",
+      "pose": "broken",
+      "file": "elf_archer_broken.png",
+      "source_box": [
+        1122,
+        561,
+        1402,
+        842
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        45,
+        20,
+        216,
+        253
+      ],
+      "bytes": 62653
+    },
+    {
+      "id": "goblin_chief",
+      "pose": "idle",
+      "file": "goblin_chief_idle.png",
+      "source_box": [
+        0,
+        842,
+        280,
+        1122
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        5,
+        14,
+        208,
+        251
+      ],
+      "bytes": 79313
+    },
+    {
+      "id": "goblin_chief",
+      "pose": "portrait",
+      "file": "goblin_chief_portrait.png",
+      "source_box": [
+        280,
+        842,
+        561,
+        1122
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        0,
+        23,
+        233,
+        250
+      ],
+      "bytes": 103304
+    },
+    {
+      "id": "goblin_chief",
+      "pose": "melee",
+      "file": "goblin_chief_melee.png",
+      "source_box": [
+        561,
+        842,
+        841,
+        1122
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        11,
+        31,
+        235,
+        246
+      ],
+      "bytes": 69547
+    },
+    {
+      "id": "goblin_chief",
+      "pose": "ranged",
+      "file": "goblin_chief_ranged.png",
+      "source_box": [
+        841,
+        842,
+        1122,
+        1122
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        10,
+        34,
+        239,
+        250
+      ],
+      "bytes": 65553
+    },
+    {
+      "id": "goblin_chief",
+      "pose": "broken",
+      "file": "goblin_chief_broken.png",
+      "source_box": [
+        1122,
+        842,
+        1402,
+        1122
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        6,
+        28,
+        232,
+        251
+      ],
+      "bytes": 86914
+    }
+  ]
+}

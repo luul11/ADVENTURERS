@@ -1,0 +1,111 @@
+.expedition-screen{--exp-bg:#11181c;--exp-panel:#182126;--exp-border:#313b41;--exp-text:#edeef0;--exp-muted:#9ba1a6;--exp-accent:#70b8ff;max-width:1380px;margin:0 auto;padding:28px 32px 48px;color:var(--exp-text);font-size:14px;line-height:1.5}.expedition-screen h1,.expedition-screen h2,.expedition-screen p{margin:0}.expedition-screen h1{font-size:22px;font-weight:600;line-height:1.5;letter-spacing:.04em}.expedition-screen h2{font-size:16px;font-weight:600}.exp-kicker,.exp-section-heading>span,.exp-member small,.camp-count{font-size:12px;color:var(--exp-muted)}.exp-header,.exp-resources,.exp-section-heading{display:flex;align-items:center;justify-content:space-between;gap:16px}.exp-header{margin-bottom:24px}.exp-resources{gap:24px}.exp-resources>span{display:flex;align-items:center;gap:8px}.exp-gold{color:#f5d90a}.exp-layout{display:grid;grid-template-columns:minmax(300px,440px) minmax(0,1fr);align-items:start;gap:28px}.exp-route,.exp-party,.exp-loadout,.node-content{background:var(--exp-panel);border:1px solid var(--exp-border);border-radius:16px;padding:20px}.exp-route{position:sticky;top:20px;background:radial-gradient(ellipse at 50% 45%,#26334d66,transparent 65%),var(--exp-panel)}.exp-section-heading{margin-bottom:16px}.route-map{position:relative;width:100%;aspect-ratio:440/740;max-height:740px}.route-links{position:absolute;inset:0;width:100%;height:100%;overflow:visible}.route-links path{stroke:#43484e;stroke-width:2;fill:none;stroke-dasharray:4 6}.route-links path.traveled{stroke:#70b8ff;stroke-dasharray:none}.route-node{position:absolute;transform:translate(-50%,-50%);display:flex;flex-direction:column;align-items:center;gap:7px;width:94px;background:none;border:0;color:#9ba1a6;cursor:pointer;transition:color 150ms ease-out}.route-node>span{display:grid;place-items:center;width:48px;height:48px;border:1px solid #43484e;background:#202a33;border-radius:14px;transform:rotate(45deg);transition:background 150ms ease-out,border-color 150ms ease-out}.route-node svg{transform:rotate(-45deg)}.route-node b{font-size:12px;font-weight:500;white-space:nowrap}.route-node.available{color:#c2e6ff}.route-node.available>span{border-color:#70b8ff;background:#004074;box-shadow:0 0 0 4px #00407444}.route-node.available:hover>span{background:#104d87}.route-node.available:active>span{background:#205d97}.route-node.visited{color:#8b8d98}.route-node.visited>span{background:#2b2a33;border-color:#6f6d78}.route-node.current>span{border-color:#b1a9ff}.route-node.boss{color:#ff9592}.route-node.extract{color:#79d7be}.route-node:disabled{cursor:default;opacity:.65}.route-node:focus-visible{outline:2px solid #70b8ff;outline-offset:6px;border-radius:8px}.route-legend{display:flex;flex-wrap:wrap;gap:10px 14px;border-top:1px solid var(--exp-border);padding-top:16px;color:var(--exp-muted);font-size:12px}.route-legend span{display:flex;align-items:center;gap:5px}.exp-camp{min-width:0;display:grid;gap:20px}.exp-notice{color:#b1a9ff;font-size:12px;min-height:0}.exp-notice:empty{display:none}.exp-members{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px}.exp-member{display:flex;align-items:center;gap:8px;text-align:left;border:1px solid transparent;border-radius:10px;background:#202a33;color:var(--exp-text);padding:8px;min-width:0;cursor:pointer;transition:border-color 150ms ease-out,background 150ms ease-out}.exp-member:hover{background:#283541}.exp-member.selected{border-color:#70b8ff;background:#003362}.exp-member>img{object-fit:contain;flex-shrink:0}.exp-member>span{display:grid;gap:3px;min-width:0}.exp-member strong{font-weight:500;font-size:14px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}.exp-member small{font-size:12px;line-height:1.6}.exp-member i{font-size:12px;font-style:normal;color:#79d7be;margin-left:auto}.exp-member.fallen img{filter:grayscale(1);opacity:.5}.exp-member.fallen small{color:#ff9592}.policy-control{display:flex;align-items:center;gap:12px;font-size:12px}.policy-control select{border:1px solid #43484e;background:#202a33;color:#edeef0;border-radius:8px;min-height:36px;padding:6px 10px;font:inherit;max-width:100%}.camp-actions{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:16px}.camp-actions .button{font-size:12px;min-height:36px;padding:6px 12px}.exp-loadout .inventory-layout{grid-template-columns:1fr}.exp-loadout .inventory-slots{grid-template-columns:repeat(3,minmax(0,1fr))}.exp-loadout .inventory-card{min-width:0}.exp-loadout .inventory-filters{flex-wrap:wrap}.exp-loadout .inventory-stock{max-height:260px}.exp-loadout .inventory-footer{flex-wrap:wrap}.exp-loadout .inventory-selection{min-width:0}.exp-loadout .inventory-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.exp-loadout .inventory-card strong{font-size:14px}.exp-loadout .inventory-card-top,.exp-loadout .inventory-bonuses,.exp-loadout .inventory-requirements{font-size:12px}.camp-count{margin-top:12px!important}.node-content>p{font-size:14px;color:var(--exp-muted);margin:10px 0 18px}.event-choices,.shop-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-top:16px}.event-choice,.shop-item{display:flex;flex-direction:column;gap:6px;border:1px solid #43484e;border-radius:10px;background:#202a33;color:var(--exp-text);text-align:left;padding:14px;cursor:pointer;transition:background 150ms ease-out,border-color 150ms ease-out}.event-choice strong,.shop-item strong{font-size:14px;font-weight:500}.event-choice span,.shop-item span{font-size:12px;color:var(--exp-muted)}.shop-item span{display:flex;justify-content:space-between;gap:8px;flex-wrap:wrap}.shop-item b{color:#f5d90a;font-weight:500}.event-choice:hover,.shop-item:hover{background:#283541;border-color:#70b8ff}.event-choice:disabled,.shop-item:disabled{opacity:.45;cursor:default}.expedition-result{min-height:100dvh;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:24px;text-align:center}.expedition-result h1{font-size:22px}.expedition-result p{color:var(--exp-muted);max-width:480px}.exp-result-stats{display:flex;justify-content:center;gap:36px;margin:12px 0}.exp-result-stats span{display:grid;gap:8px;color:var(--exp-muted);font-size:12px}.exp-result-stats strong{font-size:22px;font-weight:600;color:var(--exp-text)}.expedition-screen button:focus-visible,.expedition-screen select:focus-visible{outline:2px solid #70b8ff;outline-offset:3px}.inventory-slots{grid-template-columns:repeat(3,minmax(0,1fr))}.policy-control{margin-top:8px}.policy-control select{font-size:14px}
+@media(max-width:900px){.expedition-screen{padding:20px 16px 32px}.exp-layout{grid-template-columns:minmax(240px,.85fr) minmax(0,1fr);gap:16px}.exp-route,.exp-party,.exp-loadout,.node-content{padding:14px}.exp-members{grid-template-columns:1fr}.exp-header{margin-bottom:16px}.exp-resources{gap:12px}}
+@media(max-width:650px){.exp-layout{grid-template-columns:1fr}.exp-route{position:static}.route-map{max-width:400px;margin:auto}.exp-members{grid-template-columns:repeat(2,minmax(0,1fr))}.exp-header{gap:8px}.exp-resources{font-size:12px;gap:10px}.expedition-screen{padding:16px 12px 28px}.exp-route{padding:16px}.event-choices{grid-template-columns:1fr}.exp-section-heading{gap:8px}.exp-loadout .inventory-slots{grid-template-columns:repeat(3,minmax(0,1fr))}.exp-loadout .inventory-slot{padding:7px}.exp-loadout .inventory-card{padding:8px}.exp-loadout .inventory-card-top{flex-wrap:wrap;gap:3px}.exp-loadout .inventory-card-top>span:last-child{display:none}.exp-result-stats{gap:24px}}
+@media(max-width:360px){.exp-members{grid-template-columns:1fr}.exp-loadout .inventory-slots{grid-template-columns:1fr}.shop-grid{grid-template-columns:1fr}}
+@media(prefers-reduced-motion:reduce){.expedition-screen *{transition:none!important;animation:none!important}}
+
+/* Keep future route choices readable and phone controls easy to reach. */
+.route-node:disabled{opacity:1}.expedition-screen button,.expedition-screen select{touch-action:manipulation}.expedition-screen{padding-top:max(28px,env(safe-area-inset-top));padding-bottom:max(48px,env(safe-area-inset-bottom))}
+@media(max-width:650px){.expedition-screen .camp-actions .button,.expedition-screen .policy-control select,.expedition-screen .inventory-filters button{min-height:44px}.expedition-screen{padding-top:max(16px,env(safe-area-inset-top));padding-bottom:max(28px,env(safe-area-inset-bottom))}}
+
+/* Route positioning must not be replaced by the global button press transform. */
+.route-node:not(:disabled):active{transform:translate(-50%,-50%)}
+.route-links{pointer-events:none}
+
+/* Compact route workspace. Detailed inventory lives in a native modal. */
+.exp-layout{grid-template-columns:minmax(250px,330px) minmax(0,1fr);gap:24px}
+.exp-header{margin-bottom:16px}
+.exp-route,.exp-party,.exp-loadout,.node-content{padding:16px}
+.exp-route{top:16px}
+.route-map{height:clamp(450px,calc(100dvh - 285px),600px);aspect-ratio:auto;max-height:none}
+.route-node{width:88px;padding:4px;gap:6px}
+.route-node>span{width:34px;height:34px;border-radius:10px}
+.route-node svg{width:20px;height:20px}
+.route-legend{gap:8px 12px;padding-top:12px}
+.exp-camp{gap:16px}
+.exp-section-heading{margin-bottom:12px}
+.exp-loadout .policy-control{margin:0}
+.exp-gear-summary{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;margin:0;padding:12px 0;border-top:1px solid var(--exp-border);border-bottom:1px solid var(--exp-border)}
+.exp-gear-summary dt{font-size:12px;color:var(--exp-muted);margin-bottom:4px}
+.exp-gear-summary dd{margin:0;font-size:14px;overflow-wrap:anywhere}
+.exp-bag-summary{display:flex;flex-wrap:wrap;align-items:baseline;gap:8px 16px;margin:12px 0 16px;font-size:12px;color:var(--exp-muted)}
+.exp-bag-summary b{font-weight:500;color:var(--exp-text)}
+.exp-bag-summary ul{list-style:none;display:flex;flex-wrap:wrap;gap:6px 12px;padding:0;margin:0;color:var(--exp-text)}
+.exp-loadout .camp-actions{margin:0}
+.exp-notice:not(:empty){margin-bottom:12px}
+.exp-mobile-tabs{display:none}
+.exp-equipment-dialog{width:calc(100% - 32px);max-width:1080px;max-height:90dvh;margin:auto;padding:0;border:1px solid #43484e;border-radius:16px;background:#182126;color:#edeef0;box-shadow:0 24px 80px #0008}
+.exp-equipment-dialog::backdrop{background:#080e16bb;backdrop-filter:blur(4px)}
+.exp-equipment-header{display:flex;align-items:center;gap:16px;border-bottom:1px solid #313b41;padding:16px 20px}
+.exp-equipment-header h2{font-size:16px;font-weight:600;margin:0 auto 0 0;white-space:nowrap}
+.exp-equipment-header select{min-width:0;max-width:200px;min-height:40px;padding:6px 10px;border:1px solid #43484e;border-radius:8px;background:#202a33;color:#edeef0;font-size:14px}
+.exp-equipment-header .icon-button{min-width:40px;min-height:40px;flex-shrink:0}
+.exp-equipment-body{padding:16px 20px;max-height:calc(90dvh - 80px);overflow-y:auto;overscroll-behavior:contain}
+.exp-equipment-dialog .inventory-layout{grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:20px}
+.exp-equipment-dialog .inventory-slots{grid-template-columns:repeat(3,minmax(0,1fr))}
+.exp-equipment-dialog .inventory-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+.exp-equipment-dialog .inventory-stock{max-height:420px}
+.exp-equipment-dialog .inventory-filters{flex-wrap:wrap}
+.exp-equipment-dialog .inventory-card-top>span:last-child{display:none}
+.exp-equipment-dialog .inventory-card{min-width:0}
+.exp-equipment-dialog .inventory-card strong{font-size:14px}
+.exp-equipment-dialog .inventory-footer{flex-wrap:wrap}
+.exp-equipment-dialog .inventory-selection{min-width:0}
+.exp-equipment-dialog .camp-count{font-size:12px;color:#9ba1a6;margin:8px 0 0}
+.exp-equipment-dialog :focus-visible{outline:2px solid #70b8ff;outline-offset:3px}
+@media(max-width:900px){.exp-layout{grid-template-columns:minmax(240px,.8fr) minmax(0,1fr);gap:16px}.exp-members{grid-template-columns:1fr}}
+@media(max-width:650px){
+    .exp-layout{grid-template-columns:1fr}.exp-route{position:static}.exp-members{grid-template-columns:repeat(2,minmax(0,1fr))}
+    .exp-mobile-tabs{display:flex;gap:4px;background:#182126;border:1px solid #313b41;border-radius:10px;padding:4px;margin-bottom:16px}
+    .exp-mobile-tabs button{flex:1;min-height:40px;border:0;border-radius:6px;background:none;color:#9ba1a6;font:inherit}
+    .exp-mobile-tabs button[aria-pressed=true]{background:#003362;color:#c2e6ff}
+    [data-mobile-view=route] .exp-camp,[data-mobile-view=party] .exp-route{display:none}
+    .route-map{height:clamp(450px,calc(100dvh - 265px),620px)}
+    .route-node{gap:5px}.route-node>span{width:30px;height:30px;border-radius:9px}.route-node svg{width:18px;height:18px}
+    .exp-equipment-dialog{width:calc(100% - 16px);max-height:92dvh;border-radius:12px}
+    .exp-equipment-header{padding:12px;gap:8px}.exp-equipment-header select{font-size:12px;max-width:150px}
+    .exp-equipment-header select,.exp-equipment-header .icon-button,.exp-equipment-dialog .inventory-filters button{min-height:44px}
+    .exp-equipment-body{padding:12px;max-height:calc(92dvh - 80px)}
+    .exp-equipment-dialog .inventory-layout{grid-template-columns:1fr}.exp-equipment-dialog .inventory-card{padding:8px}.exp-equipment-dialog .inventory-slot{padding:7px}
+    .exp-equipment-dialog .inventory-footer{gap:10px}.exp-equipment-dialog .inventory-return{margin-left:auto}
+}
+@media(max-width:360px){.exp-members{grid-template-columns:1fr}.exp-gear-summary{gap:8px}.exp-gear-summary dd{font-size:12px}.exp-equipment-header h2{font-size:14px}.exp-equipment-header select{max-width:125px}}
+@media(prefers-reduced-motion:no-preference){.exp-equipment-dialog[open]{animation:exp-dialog-enter 250ms ease-out}@keyframes exp-dialog-enter{from{opacity:0;translate:0 8px}to{opacity:1;translate:0 0}}}
+@media(max-width:650px){
+    .expedition-screen{padding-bottom:max(16px,env(safe-area-inset-bottom))}
+    .route-map{height:clamp(440px,calc(100dvh - 280px),560px)}
+    .exp-route .route-legend{display:none}
+}
+
+/* Base shares the inventory model, while remaining a distinct pre-departure page. */
+.base-screen .exp-route[hidden],.base-screen .exp-mobile-tabs[hidden]{display:none}
+.base-screen .exp-camp{display:grid}
+.base-departure{padding:20px;background:#182126;border:1px solid #313b41;border-radius:16px}
+.base-departure-art{height:132px;display:grid;place-items:center;color:#c2e6ff;background:linear-gradient(#11181c55,#11181c88),url('/assets/battle_map_bg.webp') center/cover;border-radius:10px;margin-bottom:20px}
+.base-departure h2{font-size:16px;margin:0}.base-departure p{font-size:14px;color:#9ba1a6;margin:10px 0 20px}
+.exp-resource-summary{display:flex;flex-wrap:wrap;gap:10px 24px;color:#9ba1a6;font-size:12px;padding:0 0 12px}.exp-resource-summary b{color:#edeef0;font-weight:500}
+.exp-equipment-body>.exp-resource-summary{border-bottom:1px solid #313b41;margin-bottom:16px}
+.exp-tips-dialog{max-width:620px}.game-tips-copy{font-size:14px;line-height:1.9;color:#c3c8cc;margin:0}
+.camp-actions .is-unavailable{opacity:.55}.exp-resource-summary span{white-space:nowrap}
+@media(max-width:650px){.base-screen[data-mobile-view] .exp-camp{display:grid}.base-screen .exp-layout{grid-template-columns:1fr}.base-departure{padding:16px}.base-departure-art{height:88px;margin-bottom:12px}.base-departure p{margin:8px 0 12px}.exp-resources{gap:8px}.exp-header .exp-resources .text-button{min-height:40px;padding:4px;font-size:12px}.base-screen .exp-members{grid-template-columns:repeat(2,minmax(0,1fr))}.base-screen .exp-member{padding:6px}.base-screen .exp-member>img{width:36px;height:36px}.base-screen .exp-member strong{font-size:12px}.exp-resource-summary{gap:8px 16px}}
+@media(max-width:360px){.base-screen .exp-members{grid-template-columns:1fr}.exp-resources{flex-wrap:wrap;justify-content:flex-end;gap:4px 8px}}
+.exp-member small{display:flex;flex-wrap:wrap;gap:2px 8px}.exp-member small>span{white-space:nowrap}
+.camp-feedback{font-size:12px;line-height:1.6;color:#ffb4a9;margin-top:10px!important}
+
+/* Two distinct expeditions share the existing preparation workspace. */
+.dungeon-choices{display:grid;gap:12px;margin:16px 0 20px}
+.dungeon-choice{display:grid;gap:6px;width:100%;padding:16px;text-align:left;border:1px solid #43484e;border-radius:12px;background:#202a33;color:#edeef0;transition:background 150ms ease-out,border-color 150ms ease-out;cursor:pointer}
+.dungeon-choice strong{font-size:16px;font-weight:600}.dungeon-choice span,.dungeon-choice small{font-size:12px;line-height:1.7;color:#9ba1a6}
+.dungeon-choice[aria-pressed=true]{background:#003362;border-color:#70b8ff}.dungeon-choice[aria-pressed=true] span{color:#c2e6ff}
+.dungeon-choice:focus-visible{outline:2px solid #70b8ff;outline-offset:3px}
+.route-map-viewport{max-height:clamp(450px,calc(100dvh - 285px),600px);overflow-y:auto;overflow-x:hidden;overscroll-behavior:contain;scrollbar-width:thin;border-radius:8px}
+.route-map-viewport:focus-visible{outline:2px solid #70b8ff;outline-offset:2px}
+.route-map-viewport .route-map{max-width:none;margin:0;width:100%}
+.event-choice small{font-size:12px;color:#ffb4a9;line-height:1.6}.event-content .event-choices{grid-template-columns:1fr}
+.scout-notice{font-size:12px;line-height:1.6;color:#79d7be;margin:0}
+@media(max-width:650px){.route-map-viewport{max-height:calc(100dvh - 260px);min-height:300px}.dungeon-choice{padding:12px}.base-departure .dungeon-choices{grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin:12px 0}.dungeon-choice strong{font-size:14px}.dungeon-choice small{display:none}.base-departure .dungeon-choice span{font-size:12px}}
+@media(max-width:360px){.base-departure .dungeon-choices{grid-template-columns:1fr}.dungeon-choice{padding:10px}}
+.quick-revival-stone{color:#b1a9ff}.revive-targets{display:grid;gap:8px;margin:16px 0}.revive-target{display:flex;gap:12px;align-items:center;text-align:left;background:#202a33;border:1px solid #43484e;border-radius:10px;color:#edeef0;padding:10px;min-height:64px}.revive-target.selected{border-color:#b1a9ff;background:#2f265f}.revive-target .portrait{width:44px;height:44px;object-fit:contain}.revive-target>span{display:grid;gap:4px}.revive-target small{font-size:12px;color:#9ba1a6}
+.danger-badge{position:absolute;top:-11px;right:-5px;border:1px solid #e5484d;border-radius:4px;background:#541b1f;color:#ffb4a9;font-size:12px;font-style:normal;line-height:16px;padding:0 3px;pointer-events:none}.route-node.human{color:#ff9592}
+.spoils-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin:14px 0 18px;max-height:340px;overflow:auto}.spoils-item{display:grid;gap:4px;border:1px solid #43484e;background:#202a33;border-radius:8px;padding:12px}.spoils-item strong{font-size:14px;font-weight:500}.spoils-item span{font-size:12px;color:#9ba1a6}.spoils-item.is-refined{border-color:#8e4ec6}.spoils-item.is-refined strong{color:#d1b5f0}.spoils-gold{color:#ffe629;font-size:16px}.stock-notice{font-size:12px;color:#79d7be;margin-top:10px!important}
+@media(max-width:430px){.quick-items{gap:5px}.quick-state{font-size:12px}.quick-cancel{min-width:28px}.spoils-grid{grid-template-columns:1fr}.danger-badge{font-size:12px;right:-1px}}

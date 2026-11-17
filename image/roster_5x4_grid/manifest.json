@@ -1,0 +1,383 @@
+{
+  "version": 1,
+  "source": "card_roster_5x4_battle_damage.png",
+  "source_sha256": "1f8a8c254e0c4772aa53c1e31f3580bfc2476efce0fc21892ba5aeed289f291a",
+  "size": [
+    1402,
+    1122
+  ],
+  "columns": 5,
+  "rows": 4,
+  "row_ids": [
+    "human",
+    "slime",
+    "gremlin",
+    "goblin"
+  ],
+  "poses": [
+    "idle",
+    "portrait",
+    "melee",
+    "ranged",
+    "broken"
+  ],
+  "x_boundaries": [
+    0,
+    280,
+    561,
+    841,
+    1122,
+    1402
+  ],
+  "y_boundaries": [
+    0,
+    280,
+    561,
+    842,
+    1122
+  ],
+  "white_threshold": 245,
+  "resized": false,
+  "sprites": [
+    {
+      "row": 1,
+      "column": 1,
+      "row_id": "human",
+      "pose": "idle",
+      "file": "human_idle.png",
+      "box": [
+        0,
+        0,
+        280,
+        280
+      ],
+      "size": [
+        280,
+        280
+      ]
+    },
+    {
+      "row": 1,
+      "column": 2,
+      "row_id": "human",
+      "pose": "portrait",
+      "file": "human_portrait.png",
+      "box": [
+        280,
+        0,
+        561,
+        280
+      ],
+      "size": [
+        281,
+        280
+      ]
+    },
+    {
+      "row": 1,
+      "column": 3,
+      "row_id": "human",
+      "pose": "melee",
+      "file": "human_melee.png",
+      "box": [
+        561,
+        0,
+        841,
+        280
+      ],
+      "size": [
+        280,
+        280
+      ]
+    },
+    {
+      "row": 1,
+      "column": 4,
+      "row_id": "human",
+      "pose": "ranged",
+      "file": "human_ranged.png",
+      "box": [
+        841,
+        0,
+        1122,
+        280
+      ],
+      "size": [
+        281,
+        280
+      ]
+    },
+    {
+      "row": 1,
+      "column": 5,
+      "row_id": "human",
+      "pose": "broken",
+      "file": "human_broken.png",
+      "box": [
+        1122,
+        0,
+        1402,
+        280
+      ],
+      "size": [
+        280,
+        280
+      ]
+    },
+    {
+      "row": 2,
+      "column": 1,
+      "row_id": "slime",
+      "pose": "idle",
+      "file": "slime_idle.png",
+      "box": [
+        0,
+        280,
+        280,
+        561
+      ],
+      "size": [
+        280,
+        281
+      ]
+    },
+    {
+      "row": 2,
+      "column": 2,
+      "row_id": "slime",
+      "pose": "portrait",
+      "file": "slime_portrait.png",
+      "box": [
+        280,
+        280,
+        561,
+        561
+      ],
+      "size": [
+        281,
+        281
+      ]
+    },
+    {
+      "row": 2,
+      "column": 3,
+      "row_id": "slime",
+      "pose": "melee",
+      "file": "slime_melee.png",
+      "box": [
+        561,
+        280,
+        841,
+        561
+      ],
+      "size": [
+        280,
+        281
+      ]
+    },
+    {
+      "row": 2,
+      "column": 4,
+      "row_id": "slime",
+      "pose": "ranged",
+      "file": "slime_ranged.png",
+      "box": [
+        841,
+        280,
+        1122,
+        561
+      ],
+      "size": [
+        281,
+        281
+      ]
+    },
+    {
+      "row": 2,
+      "column": 5,
+      "row_id": "slime",
+      "pose": "broken",
+      "file": "slime_broken.png",
+      "box": [
+        1122,
+        280,
+        1402,
+        561
+      ],
+      "size": [
+        280,
+        281
+      ]
+    },
+    {
+      "row": 3,
+      "column": 1,
+      "row_id": "gremlin",
+      "pose": "idle",
+      "file": "gremlin_idle.png",
+      "box": [
+        0,
+        561,
+        280,
+        842
+      ],
+      "size": [
+        280,
+        281
+      ]
+    },
+    {
+      "row": 3,
+      "column": 2,
+      "row_id": "gremlin",
+      "pose": "portrait",
+      "file": "gremlin_portrait.png",
+      "box": [
+        280,
+        561,
+        561,
+        842
+      ],
+      "size": [
+        281,
+        281
+      ]
+    },
+    {
+      "row": 3,
+      "column": 3,
+      "row_id": "gremlin",
+      "pose": "melee",
+      "file": "gremlin_melee.png",
+      "box": [
+        561,
+        561,
+        841,
+        842
+      ],
+      "size": [
+        280,
+        281
+      ]
+    },
+    {
+      "row": 3,
+      "column": 4,
+      "row_id": "gremlin",
+      "pose": "ranged",
+      "file": "gremlin_ranged.png",
+      "box": [
+        841,
+        561,
+        1122,
+        842
+      ],
+      "size": [
+        281,
+        281
+      ]
+    },
+    {
+      "row": 3,
+      "column": 5,
+      "row_id": "gremlin",
+      "pose": "broken",
+      "file": "gremlin_broken.png",
+      "box": [
+        1122,
+        561,
+        1402,
+        842
+      ],
+      "size": [
+        280,
+        281
+      ]
+    },
+    {
+      "row": 4,
+      "column": 1,
+      "row_id": "goblin",
+      "pose": "idle",
+      "file": "goblin_idle.png",
+      "box": [
+        0,
+        842,
+        280,
+        1122
+      ],
+      "size": [
+        280,
+        280
+      ]
+    },
+    {
+      "row": 4,
+      "column": 2,
+      "row_id": "goblin",
+      "pose": "portrait",
+      "file": "goblin_portrait.png",
+      "box": [
+        280,
+        842,
+        561,
+        1122
+      ],
+      "size": [
+        281,
+        280
+      ]
+    },
+    {
+      "row": 4,
+      "column": 3,
+      "row_id": "goblin",
+      "pose": "melee",
+      "file": "goblin_melee.png",
+      "box": [
+        561,
+        842,
+        841,
+        1122
+      ],
+      "size": [
+        280,
+        280
+      ]
+    },
+    {
+      "row": 4,
+      "column": 4,
+      "row_id": "goblin",
+      "pose": "ranged",
+      "file": "goblin_ranged.png",
+      "box": [
+        841,
+        842,
+        1122,
+        1122
+      ],
+      "size": [
+        281,
+        280
+      ]
+    },
+    {
+      "row": 4,
+      "column": 5,
+      "row_id": "goblin",
+      "pose": "broken",
+      "file": "goblin_broken.png",
+      "box": [
+        1122,
+        842,
+        1402,
+        1122
+      ],
+      "size": [
+        280,
+        280
+      ]
+    }
+  ]
+}

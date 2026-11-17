@@ -1,0 +1,1151 @@
+{
+  "version": 1,
+  "poses": [
+    "idle",
+    "portrait",
+    "melee",
+    "ranged",
+    "broken"
+  ],
+  "sources": {
+    "card_roster_goblin_5x4.png": {
+      "row_edges_by_column": [
+        [
+          0,
+          288,
+          562,
+          813,
+          1122
+        ],
+        [
+          0,
+          298,
+          562,
+          826,
+          1122
+        ],
+        [
+          0,
+          296,
+          578,
+          816,
+          1122
+        ],
+        [
+          0,
+          300,
+          560,
+          819,
+          1122
+        ],
+        [
+          0,
+          296,
+          566,
+          826,
+          1122
+        ]
+      ],
+      "size": [
+        1402,
+        1122
+      ],
+      "sha256": "6d72a43d1751c43bf7d1dc695df4de93990e61f99080cd712e624938416b010f"
+    },
+    "card_roster_orc_5x4.png": {
+      "row_edges_by_column": [
+        [
+          0,
+          279,
+          559,
+          833,
+          1122
+        ],
+        [
+          0,
+          287,
+          561,
+          834,
+          1122
+        ],
+        [
+          0,
+          278,
+          556,
+          831,
+          1122
+        ],
+        [
+          0,
+          278,
+          559,
+          841,
+          1122
+        ],
+        [
+          0,
+          282,
+          560,
+          840,
+          1122
+        ]
+      ],
+      "size": [
+        1402,
+        1122
+      ],
+      "sha256": "6310e51c050ece549784f219fecf28f7a4a3fbfa619a0a8bc1a5c911e7472fc0"
+    }
+  },
+  "source_overrides": {
+    "orc_archer": {
+      "melee": 0,
+      "ranged": 2
+    },
+    "orc_chief": {
+      "ranged": 2
+    }
+  },
+  "sprites": [
+    {
+      "id": "goblin_recruit",
+      "pose": "idle",
+      "file": "goblin_recruit_idle.png",
+      "source": "card_roster_goblin_5x4.png",
+      "source_column": 1,
+      "source_box": [
+        0,
+        0,
+        280,
+        288
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        42,
+        18,
+        197,
+        247
+      ],
+      "bytes": 49201,
+      "runtime_file": "goblin_recruit_idle.webp",
+      "runtime_bytes": 17240
+    },
+    {
+      "id": "goblin_recruit",
+      "pose": "portrait",
+      "file": "goblin_recruit_portrait.png",
+      "source": "card_roster_goblin_5x4.png",
+      "source_column": 2,
+      "source_box": [
+        280,
+        0,
+        561,
+        298
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        9,
+        50,
+        248,
+        239
+      ],
+      "bytes": 61079,
+      "runtime_file": "goblin_recruit_portrait.webp",
+      "runtime_bytes": 16444
+    },
+    {
+      "id": "goblin_recruit",
+      "pose": "melee",
+      "file": "goblin_recruit_melee.png",
+      "source": "card_roster_goblin_5x4.png",
+      "source_column": 3,
+      "source_box": [
+        561,
+        0,
+        841,
+        296
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        7,
+        63,
+        220,
+        239
+      ],
+      "bytes": 50538,
+      "runtime_file": "goblin_recruit_melee.webp",
+      "runtime_bytes": 15970
+    },
+    {
+      "id": "goblin_recruit",
+      "pose": "ranged",
+      "file": "goblin_recruit_ranged.png",
+      "source": "card_roster_goblin_5x4.png",
+      "source_column": 4,
+      "source_box": [
+        841,
+        0,
+        1122,
+        300
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        19,
+        74,
+        215,
+        237
+      ],
+      "bytes": 42620,
+      "runtime_file": "goblin_recruit_ranged.webp",
+      "runtime_bytes": 15478
+    },
+    {
+      "id": "goblin_recruit",
+      "pose": "broken",
+      "file": "goblin_recruit_broken.png",
+      "source": "card_roster_goblin_5x4.png",
+      "source_column": 5,
+      "source_box": [
+        1122,
+        0,
+        1402,
+        296
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        69,
+        21,
+        213,
+        241
+      ],
+      "bytes": 43953,
+      "runtime_file": "goblin_recruit_broken.webp",
+      "runtime_bytes": 15940
+    },
+    {
+      "id": "goblin_warrior",
+      "pose": "idle",
+      "file": "goblin_warrior_idle.png",
+      "source": "card_roster_goblin_5x4.png",
+      "source_column": 1,
+      "source_box": [
+        0,
+        288,
+        280,
+        562
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        11,
+        12,
+        218,
+        242
+      ],
+      "bytes": 68865,
+      "runtime_file": "goblin_warrior_idle.webp",
+      "runtime_bytes": 19808
+    },
+    {
+      "id": "goblin_warrior",
+      "pose": "portrait",
+      "file": "goblin_warrior_portrait.png",
+      "source": "card_roster_goblin_5x4.png",
+      "source_column": 2,
+      "source_box": [
+        280,
+        298,
+        561,
+        562
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        11,
+        28,
+        222,
+        226
+      ],
+      "bytes": 69061,
+      "runtime_file": "goblin_warrior_portrait.webp",
+      "runtime_bytes": 16530
+    },
+    {
+      "id": "goblin_warrior",
+      "pose": "melee",
+      "file": "goblin_warrior_melee.png",
+      "source": "card_roster_goblin_5x4.png",
+      "source_column": 3,
+      "source_box": [
+        561,
+        296,
+        841,
+        578
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        2,
+        19,
+        248,
+        234
+      ],
+      "bytes": 80123,
+      "runtime_file": "goblin_warrior_melee.webp",
+      "runtime_bytes": 22702
+    },
+    {
+      "id": "goblin_warrior",
+      "pose": "ranged",
+      "file": "goblin_warrior_ranged.png",
+      "source": "card_roster_goblin_5x4.png",
+      "source_column": 4,
+      "source_box": [
+        841,
+        300,
+        1122,
+        560
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        23,
+        31,
+        247,
+        233
+      ],
+      "bytes": 60384,
+      "runtime_file": "goblin_warrior_ranged.webp",
+      "runtime_bytes": 19774
+    },
+    {
+      "id": "goblin_warrior",
+      "pose": "broken",
+      "file": "goblin_warrior_broken.png",
+      "source": "card_roster_goblin_5x4.png",
+      "source_column": 5,
+      "source_box": [
+        1122,
+        296,
+        1402,
+        566
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        53,
+        22,
+        228,
+        238
+      ],
+      "bytes": 66386,
+      "runtime_file": "goblin_warrior_broken.webp",
+      "runtime_bytes": 18728
+    },
+    {
+      "id": "goblin_raider",
+      "pose": "idle",
+      "file": "goblin_raider_idle.png",
+      "source": "card_roster_goblin_5x4.png",
+      "source_column": 1,
+      "source_box": [
+        0,
+        562,
+        280,
+        813
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        21,
+        25,
+        222,
+        233
+      ],
+      "bytes": 48992,
+      "runtime_file": "goblin_raider_idle.webp",
+      "runtime_bytes": 16388
+    },
+    {
+      "id": "goblin_raider",
+      "pose": "portrait",
+      "file": "goblin_raider_portrait.png",
+      "source": "card_roster_goblin_5x4.png",
+      "source_column": 2,
+      "source_box": [
+        280,
+        562,
+        561,
+        826
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        9,
+        31,
+        256,
+        228
+      ],
+      "bytes": 60103,
+      "runtime_file": "goblin_raider_portrait.webp",
+      "runtime_bytes": 14980
+    },
+    {
+      "id": "goblin_raider",
+      "pose": "melee",
+      "file": "goblin_raider_melee.png",
+      "source": "card_roster_goblin_5x4.png",
+      "source_column": 3,
+      "source_box": [
+        561,
+        578,
+        841,
+        816
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        0,
+        43,
+        254,
+        226
+      ],
+      "bytes": 57168,
+      "runtime_file": "goblin_raider_melee.webp",
+      "runtime_bytes": 18296
+    },
+    {
+      "id": "goblin_raider",
+      "pose": "ranged",
+      "file": "goblin_raider_ranged.png",
+      "source": "card_roster_goblin_5x4.png",
+      "source_column": 4,
+      "source_box": [
+        841,
+        560,
+        1122,
+        819
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        39,
+        25,
+        255,
+        233
+      ],
+      "bytes": 57023,
+      "runtime_file": "goblin_raider_ranged.webp",
+      "runtime_bytes": 20208
+    },
+    {
+      "id": "goblin_raider",
+      "pose": "broken",
+      "file": "goblin_raider_broken.png",
+      "source": "card_roster_goblin_5x4.png",
+      "source_column": 5,
+      "source_box": [
+        1122,
+        566,
+        1402,
+        826
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        31,
+        23,
+        225,
+        226
+      ],
+      "bytes": 48419,
+      "runtime_file": "goblin_raider_broken.webp",
+      "runtime_bytes": 15924
+    },
+    {
+      "id": "goblin_chief",
+      "pose": "idle",
+      "file": "goblin_chief_idle.png",
+      "source": "card_roster_goblin_5x4.png",
+      "source_column": 1,
+      "source_box": [
+        0,
+        813,
+        280,
+        1122
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        27,
+        9,
+        229,
+        227
+      ],
+      "bytes": 82045,
+      "runtime_file": "goblin_chief_idle.webp",
+      "runtime_bytes": 21618
+    },
+    {
+      "id": "goblin_chief",
+      "pose": "portrait",
+      "file": "goblin_chief_portrait.png",
+      "source": "card_roster_goblin_5x4.png",
+      "source_column": 2,
+      "source_box": [
+        280,
+        826,
+        561,
+        1122
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        14,
+        18,
+        212,
+        227
+      ],
+      "bytes": 71634,
+      "runtime_file": "goblin_chief_portrait.webp",
+      "runtime_bytes": 16458
+    },
+    {
+      "id": "goblin_chief",
+      "pose": "melee",
+      "file": "goblin_chief_melee.png",
+      "source": "card_roster_goblin_5x4.png",
+      "source_column": 3,
+      "source_box": [
+        561,
+        816,
+        841,
+        1122
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        24,
+        10,
+        245,
+        227
+      ],
+      "bytes": 76863,
+      "runtime_file": "goblin_chief_melee.webp",
+      "runtime_bytes": 21320
+    },
+    {
+      "id": "goblin_chief",
+      "pose": "ranged",
+      "file": "goblin_chief_ranged.png",
+      "source": "card_roster_goblin_5x4.png",
+      "source_column": 4,
+      "source_box": [
+        841,
+        819,
+        1122,
+        1122
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        9,
+        14,
+        234,
+        225
+      ],
+      "bytes": 64031,
+      "runtime_file": "goblin_chief_ranged.webp",
+      "runtime_bytes": 19480
+    },
+    {
+      "id": "goblin_chief",
+      "pose": "broken",
+      "file": "goblin_chief_broken.png",
+      "source": "card_roster_goblin_5x4.png",
+      "source_column": 5,
+      "source_box": [
+        1122,
+        826,
+        1402,
+        1122
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        7,
+        20,
+        238,
+        225
+      ],
+      "bytes": 77067,
+      "runtime_file": "goblin_chief_broken.webp",
+      "runtime_bytes": 22242
+    },
+    {
+      "id": "orc_recruit",
+      "pose": "idle",
+      "file": "orc_recruit_idle.png",
+      "source": "card_roster_orc_5x4.png",
+      "source_column": 1,
+      "source_box": [
+        0,
+        0,
+        280,
+        279
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        52,
+        21,
+        236,
+        245
+      ],
+      "bytes": 54908,
+      "runtime_file": "orc_recruit_idle.webp",
+      "runtime_bytes": 19124
+    },
+    {
+      "id": "orc_recruit",
+      "pose": "portrait",
+      "file": "orc_recruit_portrait.png",
+      "source": "card_roster_orc_5x4.png",
+      "source_column": 2,
+      "source_box": [
+        280,
+        0,
+        561,
+        287
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        13,
+        21,
+        229,
+        246
+      ],
+      "bytes": 72043,
+      "runtime_file": "orc_recruit_portrait.webp",
+      "runtime_bytes": 16390
+    },
+    {
+      "id": "orc_recruit",
+      "pose": "melee",
+      "file": "orc_recruit_melee.png",
+      "source": "card_roster_orc_5x4.png",
+      "source_column": 3,
+      "source_box": [
+        561,
+        0,
+        841,
+        278
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        20,
+        34,
+        231,
+        243
+      ],
+      "bytes": 68623,
+      "runtime_file": "orc_recruit_melee.webp",
+      "runtime_bytes": 20648
+    },
+    {
+      "id": "orc_recruit",
+      "pose": "ranged",
+      "file": "orc_recruit_ranged.png",
+      "source": "card_roster_orc_5x4.png",
+      "source_column": 4,
+      "source_box": [
+        841,
+        0,
+        1122,
+        278
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        30,
+        44,
+        256,
+        242
+      ],
+      "bytes": 49285,
+      "runtime_file": "orc_recruit_ranged.webp",
+      "runtime_bytes": 17184
+    },
+    {
+      "id": "orc_recruit",
+      "pose": "broken",
+      "file": "orc_recruit_broken.png",
+      "source": "card_roster_orc_5x4.png",
+      "source_column": 5,
+      "source_box": [
+        1122,
+        0,
+        1402,
+        282
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        1,
+        25,
+        192,
+        246
+      ],
+      "bytes": 50546,
+      "runtime_file": "orc_recruit_broken.webp",
+      "runtime_bytes": 16340
+    },
+    {
+      "id": "orc_warrior",
+      "pose": "idle",
+      "file": "orc_warrior_idle.png",
+      "source": "card_roster_orc_5x4.png",
+      "source_column": 1,
+      "source_box": [
+        0,
+        279,
+        280,
+        559
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        22,
+        10,
+        239,
+        246
+      ],
+      "bytes": 81155,
+      "runtime_file": "orc_warrior_idle.webp",
+      "runtime_bytes": 22760
+    },
+    {
+      "id": "orc_warrior",
+      "pose": "portrait",
+      "file": "orc_warrior_portrait.png",
+      "source": "card_roster_orc_5x4.png",
+      "source_column": 2,
+      "source_box": [
+        280,
+        287,
+        561,
+        561
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        11,
+        14,
+        256,
+        243
+      ],
+      "bytes": 85783,
+      "runtime_file": "orc_warrior_portrait.webp",
+      "runtime_bytes": 16960
+    },
+    {
+      "id": "orc_warrior",
+      "pose": "melee",
+      "file": "orc_warrior_melee.png",
+      "source": "card_roster_orc_5x4.png",
+      "source_column": 3,
+      "source_box": [
+        561,
+        278,
+        841,
+        556
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        16,
+        15,
+        256,
+        246
+      ],
+      "bytes": 83796,
+      "runtime_file": "orc_warrior_melee.webp",
+      "runtime_bytes": 23312
+    },
+    {
+      "id": "orc_warrior",
+      "pose": "ranged",
+      "file": "orc_warrior_ranged.png",
+      "source": "card_roster_orc_5x4.png",
+      "source_column": 4,
+      "source_box": [
+        841,
+        278,
+        1122,
+        559
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        0,
+        14,
+        247,
+        246
+      ],
+      "bytes": 79384,
+      "runtime_file": "orc_warrior_ranged.webp",
+      "runtime_bytes": 23488
+    },
+    {
+      "id": "orc_warrior",
+      "pose": "broken",
+      "file": "orc_warrior_broken.png",
+      "source": "card_roster_orc_5x4.png",
+      "source_column": 5,
+      "source_box": [
+        1122,
+        282,
+        1402,
+        560
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        38,
+        12,
+        234,
+        246
+      ],
+      "bytes": 81897,
+      "runtime_file": "orc_warrior_broken.webp",
+      "runtime_bytes": 23934
+    },
+    {
+      "id": "orc_archer",
+      "pose": "idle",
+      "file": "orc_archer_idle.png",
+      "source": "card_roster_orc_5x4.png",
+      "source_column": 1,
+      "source_box": [
+        0,
+        559,
+        280,
+        833
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        60,
+        13,
+        213,
+        243
+      ],
+      "bytes": 56344,
+      "runtime_file": "orc_archer_idle.webp",
+      "runtime_bytes": 18944
+    },
+    {
+      "id": "orc_archer",
+      "pose": "portrait",
+      "file": "orc_archer_portrait.png",
+      "source": "card_roster_orc_5x4.png",
+      "source_column": 2,
+      "source_box": [
+        280,
+        561,
+        561,
+        834
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        11,
+        13,
+        236,
+        241
+      ],
+      "bytes": 91283,
+      "runtime_file": "orc_archer_portrait.webp",
+      "runtime_bytes": 19934
+    },
+    {
+      "id": "orc_archer",
+      "pose": "melee",
+      "file": "orc_archer_melee.png",
+      "source": "card_roster_orc_5x4.png",
+      "source_column": 1,
+      "source_box": [
+        0,
+        559,
+        280,
+        833
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        60,
+        13,
+        213,
+        243
+      ],
+      "bytes": 56344,
+      "runtime_file": "orc_archer_melee.webp",
+      "runtime_bytes": 18944
+    },
+    {
+      "id": "orc_archer",
+      "pose": "ranged",
+      "file": "orc_archer_ranged.png",
+      "source": "card_roster_orc_5x4.png",
+      "source_column": 3,
+      "source_box": [
+        561,
+        556,
+        841,
+        831
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        20,
+        12,
+        256,
+        246
+      ],
+      "bytes": 70376,
+      "runtime_file": "orc_archer_ranged.webp",
+      "runtime_bytes": 23150
+    },
+    {
+      "id": "orc_archer",
+      "pose": "broken",
+      "file": "orc_archer_broken.png",
+      "source": "card_roster_orc_5x4.png",
+      "source_column": 5,
+      "source_box": [
+        1122,
+        560,
+        1402,
+        840
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        63,
+        11,
+        252,
+        242
+      ],
+      "bytes": 58432,
+      "runtime_file": "orc_archer_broken.webp",
+      "runtime_bytes": 18206
+    },
+    {
+      "id": "orc_chief",
+      "pose": "idle",
+      "file": "orc_chief_idle.png",
+      "source": "card_roster_orc_5x4.png",
+      "source_column": 1,
+      "source_box": [
+        0,
+        833,
+        280,
+        1122
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        23,
+        9,
+        237,
+        236
+      ],
+      "bytes": 93378,
+      "runtime_file": "orc_chief_idle.webp",
+      "runtime_bytes": 25206
+    },
+    {
+      "id": "orc_chief",
+      "pose": "portrait",
+      "file": "orc_chief_portrait.png",
+      "source": "card_roster_orc_5x4.png",
+      "source_column": 2,
+      "source_box": [
+        280,
+        834,
+        561,
+        1122
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        14,
+        12,
+        252,
+        236
+      ],
+      "bytes": 93517,
+      "runtime_file": "orc_chief_portrait.webp",
+      "runtime_bytes": 18788
+    },
+    {
+      "id": "orc_chief",
+      "pose": "melee",
+      "file": "orc_chief_melee.png",
+      "source": "card_roster_orc_5x4.png",
+      "source_column": 3,
+      "source_box": [
+        561,
+        831,
+        841,
+        1122
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        33,
+        7,
+        251,
+        235
+      ],
+      "bytes": 84212,
+      "runtime_file": "orc_chief_melee.webp",
+      "runtime_bytes": 23684
+    },
+    {
+      "id": "orc_chief",
+      "pose": "ranged",
+      "file": "orc_chief_ranged.png",
+      "source": "card_roster_orc_5x4.png",
+      "source_column": 3,
+      "source_box": [
+        561,
+        831,
+        841,
+        1122
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        33,
+        7,
+        251,
+        235
+      ],
+      "bytes": 84212,
+      "runtime_file": "orc_chief_ranged.webp",
+      "runtime_bytes": 23684
+    },
+    {
+      "id": "orc_chief",
+      "pose": "broken",
+      "file": "orc_chief_broken.png",
+      "source": "card_roster_orc_5x4.png",
+      "source_column": 5,
+      "source_box": [
+        1122,
+        840,
+        1402,
+        1122
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        39,
+        16,
+        246,
+        238
+      ],
+      "bytes": 90536,
+      "runtime_file": "orc_chief_broken.webp",
+      "runtime_bytes": 24584
+    }
+  ]
+}

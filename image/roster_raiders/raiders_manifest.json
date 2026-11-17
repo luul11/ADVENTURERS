@@ -1,0 +1,511 @@
+{
+  "version": 1,
+  "rows": [
+    "guard_spearman",
+    "guard_veteran",
+    "bandit_archer",
+    "bandit_raider"
+  ],
+  "poses": [
+    "idle",
+    "portrait",
+    "melee",
+    "ranged",
+    "broken"
+  ],
+  "source_size": [
+    1600,
+    1280
+  ],
+  "source_sha256": "9daa5383dd3e6ab18a6331301e4b00d6430016b8d444927de91c56289307107a",
+  "sprites": [
+    {
+      "id": "guard_spearman",
+      "pose": "idle",
+      "file": "guard_spearman_idle.png",
+      "source_box": [
+        0,
+        0,
+        320,
+        329
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        59,
+        6,
+        252,
+        255
+      ],
+      "bytes": 44771,
+      "runtime_file": "guard_spearman_idle.webp",
+      "runtime_bytes": 16102
+    },
+    {
+      "id": "guard_spearman",
+      "pose": "portrait",
+      "file": "guard_spearman_portrait.png",
+      "source_box": [
+        320,
+        0,
+        640,
+        325
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        2,
+        19,
+        254,
+        253
+      ],
+      "bytes": 71750,
+      "runtime_file": "guard_spearman_portrait.webp",
+      "runtime_bytes": 16704
+    },
+    {
+      "id": "guard_spearman",
+      "pose": "melee",
+      "file": "guard_spearman_melee.png",
+      "source_box": [
+        640,
+        0,
+        960,
+        324
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        1,
+        44,
+        254,
+        254
+      ],
+      "bytes": 53807,
+      "runtime_file": "guard_spearman_melee.webp",
+      "runtime_bytes": 17196
+    },
+    {
+      "id": "guard_spearman",
+      "pose": "ranged",
+      "file": "guard_spearman_ranged.png",
+      "source_box": [
+        960,
+        0,
+        1280,
+        338
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        7,
+        4,
+        240,
+        246
+      ],
+      "bytes": 51251,
+      "runtime_file": "guard_spearman_ranged.webp",
+      "runtime_bytes": 18650
+    },
+    {
+      "id": "guard_spearman",
+      "pose": "broken",
+      "file": "guard_spearman_broken.png",
+      "source_box": [
+        1280,
+        0,
+        1600,
+        326
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        54,
+        24,
+        184,
+        249
+      ],
+      "bytes": 53508,
+      "runtime_file": "guard_spearman_broken.webp",
+      "runtime_bytes": 15758
+    },
+    {
+      "id": "guard_veteran",
+      "pose": "idle",
+      "file": "guard_veteran_idle.png",
+      "source_box": [
+        0,
+        329,
+        320,
+        647
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        15,
+        3,
+        256,
+        246
+      ],
+      "bytes": 72155,
+      "runtime_file": "guard_veteran_idle.webp",
+      "runtime_bytes": 19002
+    },
+    {
+      "id": "guard_veteran",
+      "pose": "portrait",
+      "file": "guard_veteran_portrait.png",
+      "source_box": [
+        320,
+        325,
+        640,
+        640
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        0,
+        8,
+        256,
+        250
+      ],
+      "bytes": 90888,
+      "runtime_file": "guard_veteran_portrait.webp",
+      "runtime_bytes": 19244
+    },
+    {
+      "id": "guard_veteran",
+      "pose": "melee",
+      "file": "guard_veteran_melee.png",
+      "source_box": [
+        640,
+        324,
+        960,
+        650
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        2,
+        3,
+        226,
+        245
+      ],
+      "bytes": 82156,
+      "runtime_file": "guard_veteran_melee.webp",
+      "runtime_bytes": 22170
+    },
+    {
+      "id": "guard_veteran",
+      "pose": "ranged",
+      "file": "guard_veteran_ranged.png",
+      "source_box": [
+        960,
+        338,
+        1280,
+        638
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        22,
+        20,
+        237,
+        246
+      ],
+      "bytes": 71940,
+      "runtime_file": "guard_veteran_ranged.webp",
+      "runtime_bytes": 19912
+    },
+    {
+      "id": "guard_veteran",
+      "pose": "broken",
+      "file": "guard_veteran_broken.png",
+      "source_box": [
+        1280,
+        326,
+        1600,
+        643
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        20,
+        10,
+        226,
+        248
+      ],
+      "bytes": 85198,
+      "runtime_file": "guard_veteran_broken.webp",
+      "runtime_bytes": 22318
+    },
+    {
+      "id": "bandit_archer",
+      "pose": "idle",
+      "file": "bandit_archer_idle.png",
+      "source_box": [
+        0,
+        647,
+        320,
+        957
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        29,
+        14,
+        221,
+        248
+      ],
+      "bytes": 57369,
+      "runtime_file": "bandit_archer_idle.webp",
+      "runtime_bytes": 18932
+    },
+    {
+      "id": "bandit_archer",
+      "pose": "portrait",
+      "file": "bandit_archer_portrait.png",
+      "source_box": [
+        320,
+        640,
+        640,
+        956
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        0,
+        7,
+        256,
+        250
+      ],
+      "bytes": 92518,
+      "runtime_file": "bandit_archer_portrait.webp",
+      "runtime_bytes": 21254
+    },
+    {
+      "id": "bandit_archer",
+      "pose": "melee",
+      "file": "bandit_archer_melee.png",
+      "source_box": [
+        640,
+        650,
+        960,
+        968
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        0,
+        13,
+        233,
+        251
+      ],
+      "bytes": 70785,
+      "runtime_file": "bandit_archer_melee.webp",
+      "runtime_bytes": 19658
+    },
+    {
+      "id": "bandit_archer",
+      "pose": "ranged",
+      "file": "bandit_archer_ranged.png",
+      "source_box": [
+        960,
+        638,
+        1280,
+        967
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        19,
+        3,
+        252,
+        253
+      ],
+      "bytes": 72711,
+      "runtime_file": "bandit_archer_ranged.webp",
+      "runtime_bytes": 23624
+    },
+    {
+      "id": "bandit_archer",
+      "pose": "broken",
+      "file": "bandit_archer_broken.png",
+      "source_box": [
+        1280,
+        643,
+        1600,
+        971
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        3,
+        7,
+        208,
+        250
+      ],
+      "bytes": 62749,
+      "runtime_file": "bandit_archer_broken.webp",
+      "runtime_bytes": 18930
+    },
+    {
+      "id": "bandit_raider",
+      "pose": "idle",
+      "file": "bandit_raider_idle.png",
+      "source_box": [
+        0,
+        957,
+        320,
+        1280
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        24,
+        5,
+        207,
+        256
+      ],
+      "bytes": 62842,
+      "runtime_file": "bandit_raider_idle.webp",
+      "runtime_bytes": 18284
+    },
+    {
+      "id": "bandit_raider",
+      "pose": "portrait",
+      "file": "bandit_raider_portrait.png",
+      "source_box": [
+        320,
+        956,
+        640,
+        1280
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        1,
+        6,
+        217,
+        245
+      ],
+      "bytes": 92338,
+      "runtime_file": "bandit_raider_portrait.webp",
+      "runtime_bytes": 21908
+    },
+    {
+      "id": "bandit_raider",
+      "pose": "melee",
+      "file": "bandit_raider_melee.png",
+      "source_box": [
+        640,
+        968,
+        960,
+        1280
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        1,
+        14,
+        228,
+        243
+      ],
+      "bytes": 80608,
+      "runtime_file": "bandit_raider_melee.webp",
+      "runtime_bytes": 23264
+    },
+    {
+      "id": "bandit_raider",
+      "pose": "ranged",
+      "file": "bandit_raider_ranged.png",
+      "source_box": [
+        960,
+        967,
+        1280,
+        1280
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        39,
+        7,
+        256,
+        243
+      ],
+      "bytes": 67310,
+      "runtime_file": "bandit_raider_ranged.webp",
+      "runtime_bytes": 21442
+    },
+    {
+      "id": "bandit_raider",
+      "pose": "broken",
+      "file": "bandit_raider_broken.png",
+      "source_box": [
+        1280,
+        971,
+        1600,
+        1280
+      ],
+      "size": [
+        256,
+        256
+      ],
+      "alpha_bounds": [
+        0,
+        11,
+        216,
+        240
+      ],
+      "bytes": 68224,
+      "runtime_file": "bandit_raider_broken.webp",
+      "runtime_bytes": 19744
+    }
+  ],
+  "base": {
+    "source_size": [
+      1672,
+      941
+    ],
+    "runtime": "public/assets/mercenary_base.webp",
+    "bytes": 374028
+  }
+}
