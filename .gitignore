@@ -1,0 +1,55 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Local isolated browser QA artifacts
+.codex/ui-qa/
+
+.claude
+.codex
+docx
+graphify-out
+images_first
+screenshot.png
+# Python asset-processing cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Incremental builds and test output
+*.tsbuildinfo
+/.vite/
+/coverage/
+/playwright-report/
+/test-results/
+
+# Generated asset previews (keep source art, runtime sprites and manifests)
+/image/*/preview.png
+/image/*/*_preview.png
+
+# Local environment files (keep templates)
+.env
+.env.*
+!.env.example
+!.env.sample
